@@ -7,63 +7,27 @@ Created on Sun May 10 20:55:40 2020
 
 import tkinter as tk
 from tkinter import ttk
-#import matplotlib
-#matplotlib.use("TKAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
 import matplotlib.animation as animation
 from matplotlib import style
 style.use('ggplot')
-#import urllib
-#import json
 import pandas as pd
-#import numpy as np
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, Date, Float, BigInteger
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-f = Figure(figsize=(5,4), dpi=100)
-a = f.add_subplot(111)
+
 Base = declarative_base()
 
 
 LARGE_FONT = ("Verdana", 12)
-
-def animate(i):
-    sql_interface = SQLinterface()
-    stock_data = sql_interface.retreive_data()
-    column_names = str(type(stock_data))
-    #a.plot(stock_data['Date'].to_list(), stock_data['Close Price'].to_list())
-    
-    '''
-    dataLink = 'https://btc-e.com/api/3/trades/btc_usd?limit=2000'
-    data = urllib.request.urlopen(dataLink)
-    data = data.readall().decode("utf-8")
-    data = json.loads(data)
-    
-    data = data["btc_usd"]
-    data = pd.DataFrame(data)
-    
-    buys = data[(data['type']=="bid")]
-    buys["datestamp"] = np.array(buys["timestamp"]).astype("datetime64[s]")
-    buyDates = (buys["datestamp"]).tolist()
-    
-    sells = data[(data['type']=="ask")]
-    sells["datestamp"] = np.array(sells["timestamp"])
-    sellDates = (sells["datestamp"]).tolist()
-    
-    a.clear()
-    
-    a.plot_date(buyDates, buy["price"])
-    a.plot_date(sellDates, sells["price"])
-    '''
     
     
 class SeaofBTCapp(tk.Tk):
     
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-        #tk.Tk.iconbitmap(self, default='clienticon.ico')
         tk.Tk.wm_title(self, "Sea of BTC Client")
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand = True)
@@ -116,11 +80,8 @@ class PageOne(tk.Frame):
         button2.pack()
         button3 = ttk.Button(self, text="Take Backup to flat file", command=controller.sql_interface.backup)
         button3.pack()
-        #button3.bind('', controller.sql_interface.backup)
         button4 = ttk.Button(self, text="Restore Backup from flat file", command=controller.sql_interface.restore)
         button4.pack()
-        #button4.bind('', controller.sql_interface.restore)
-
 
 class PageTwo(tk.Frame):
     
@@ -148,10 +109,9 @@ class BTCe_page(tk.Frame):
                              command= lambda: controller.show_frame(StartPage))
         button1.pack()
         
-        #f = Figure(figsize=(5,5), dpi=100)
-        #a = f.add_subplot(111)
-        #a.plot([1,2,3,4,5,6,7,8], [5,6,1,3,8,9,3,5])
-        self.sql_interface = controller.sql_interface
+        f = Figure(figsize=(5,5), dpi=100)
+        a = f.add_subplot(111)
+        a.plot([1,2,3,4,5,6,7,8], [5,6,1,3,8,9,3,5])
         
         canvas = FigureCanvasTkAgg(f, self)
         canvas.draw()
@@ -166,11 +126,13 @@ class SQLinterface():
     records_dict = {}
     
     def __init__(self):
-        self.engine = create_engine(self.sql_link, echo = True)
-        self.meta = MetaData()
-        Session = sessionmaker(bind=self.engine)
-        self.session = Session()
-        self.get_no_of_records()
+        try:
+            self.engine = create_engine(self.sql_link, echo = True)
+        except Operation:
+            self.meta = MetaData()
+            Session = sessionmaker(bind=self.engine)
+            self.session = Session()
+            #self.get_no_of_records()
     
     def get_no_of_records(self):
         total_sql_records_query = "SELECT COUNT(*) FROM STOCKS"
@@ -203,6 +165,9 @@ class SQLinterface():
     def restore(self):
         df = pd.read_csv("Backup.csv")
         df.to_sql(name=Stock.__tablename__, con=self.engine, index=False)
+        
+    def check_database(self):
+        
  
 class Stock(Base):
     __tablename__ = 'stocks'
@@ -269,5 +234,4 @@ class Stock(Base):
         return pd.DataFrame.from_dict(self.to_dict(), orient='index')
 
 app = SeaofBTCapp()
-ani = animation.FuncAnimation(f, animate, interval=1000)
 app.mainloop()
