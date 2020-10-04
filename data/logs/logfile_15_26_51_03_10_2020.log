@@ -1,0 +1,5 @@
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\02102020\sec_bhavdata_full_02102020.csv
+INFO:root:Create record 0 :Symbol-20MICRONS, Date-2020-10-01, Series-EQ
+INFO:root:Capturing the error record
