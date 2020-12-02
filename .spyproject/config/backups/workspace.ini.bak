@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['stock_analysis\\api\\extraction.py', 'setup.py']
+recent_files = ['test\\test_code.py', 'stock_analysis\\api\\extraction.py', 'stock_analysis\\api\\read.py']
 

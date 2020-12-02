@@ -11,6 +11,9 @@ import urllib3, json
 import pandas as pd
 import time
 import os
+from selenium import webdriver
+
+chromedriver = "C:\\"+os.path.join("Work","chromedriver_win32", "chromedriver")
 
 def strip(text):
     try:
@@ -129,7 +132,7 @@ data = json.loads(response.data.decode('utf-8'))
 df = pd.json_normalize(data["records"])
 print(df)
 '''
-
+'''
 url3 = "https://archives.nseindia.com/products/content/sec_bhavdata_full_18092020.csv"
 
 from selenium import webdriver
@@ -159,3 +162,75 @@ def create_folder(date, file_name, target_path):
         shutil.move(os.path.join(download_path,file_name), os.path.join(target_path,date,file_name))
 
 create_folder("18092020", file_name, target_path)
+'''
+'''
+def change_date(str_date):
+        """
+        Function to change date format from DDMMYYYY to YYYY-MM-DD
+
+        Parameters
+        ----------
+        date : String
+            Date format DDMMYYYY which is bhavcopy format
+
+        Returns
+        -------
+        String
+            Date in the format YYYY-MM-DD which is in the SQL table format
+
+        """
+        year = str_date[6:]
+        month = str_date[3:5]
+        day = str_date[:2]
+        return year+'-'+month+'-'+day
+file = "C:\\"+os.path.join("Users", "Arijit Ganguly", "Downloads", "ind_close_all_09102020.csv")
+dataframe = pd.read_csv(file).fillna(0)
+dataframe = dataframe.rename(columns={"Index Name":"index_name",
+                                              "Index Date":"trading_date",
+                                              "Open Index Value":"open",
+                                              "High Index Value":"high",
+                                              "Low Index Value":"low",
+                                              "Closing Index Value":"close",
+                                              "Points Change":"pts_change",
+                                              "Change(%)":"change_percent",
+                                              "Volume":"volume",
+                                              "Turnover (Rs. Cr.)":"turnover",
+                                              "P/E":"p_by_e",
+                                              "P/B":"p_by_b",
+                                              "Div Yield":"div_yield"})
+dataframe.open = dataframe.open.replace({"-":0})
+dataframe.high = dataframe.high.replace({"-":0})
+#dataframe.close = dataframe.close.replace({"-":0})
+dataframe.low = dataframe.low.replace({"-":0})
+#dataframe.pts_change = dataframe.pts_change.replace({"-":0})
+dataframe.change_percent = dataframe.change_percent.replace({"-":0})
+dataframe.volume = dataframe.volume.replace({"-":0})
+dataframe.turnover = dataframe.turnover.replace({"-":0})
+dataframe.p_by_e = dataframe.p_by_e.replace({"-":0})
+dataframe.p_by_b = dataframe.p_by_b.replace({"-":0})
+dataframe.div_yield = dataframe.div_yield.replace({"-":0})
+dataframe["trading_date"] = dataframe["trading_date"].apply(lambda x: change_date(x))
+dataframe["open"] = dataframe["open"].astype(float)
+dataframe["high"] = dataframe["high"].astype(float)
+dataframe["low"] = dataframe["low"].astype(float)
+dataframe["close"] = dataframe["close"].astype(float)
+dataframe["change_percent"] = dataframe["change_percent"].astype(float)
+dataframe["volume"] = dataframe["volume"].astype('int64')
+dataframe["turnover"] = dataframe["turnover"].astype(float)
+dataframe["p_by_e"] = dataframe["p_by_e"].astype(float)
+dataframe["p_by_b"] = dataframe["p_by_b"].astype(float)
+dataframe["div_yield"] = dataframe["div_yield"].astype(float)
+'''
+url = "https://www1.nseindia.com/products/content/equities/equities/eq_security.htm"
+driver = webdriver.Chrome(chromedriver)
+driver.get(url)
+inputElement = driver.find_element_by_id("symbol")
+inputElement.send_keys('RELIANCE')
+radioButton = driver.find_element_by_id("rdDateToDate")
+radioButton.click()
+fromDate = driver.find_element_by_id("fromDate")
+fromDate.send_keys("28-09-2020")
+toDate = driver.find_element_by_id("toDate")
+toDate.send_keys("28-09-2020")
+getButton = driver.find_element_by_id("submitMe")
+getButton.click()

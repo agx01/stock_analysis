@@ -11,6 +11,8 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 import time
 import logging
+import sys
+from stock_analysis.api.read import StockRead
 
 class StockExtraction():  
     project_structure = {}
@@ -45,8 +47,10 @@ class StockExtraction():
             self.chrome_driver = data["Project Structure"]["Chrome driver"]
             self.create_one_stock = data["Links"]["stocks"]["Create"]
             self.nse_link = data["Links"]["Base nse url"]
+            self.nse_index_link = data["Links"]["Base index url"]
             self.log_path = self.project_structure["Logs"]
-        LOG_FILENAME = datetime.now().strftime(os.path.join(self.log_path, 'logfile_%H_%M_%S_%d_%m_%Y.log'))
+            self.historic_data_path = data["Project Structure"]["Historic stocks"]
+        LOG_FILENAME = datetime.now().strftime(os.path.join(self.log_path, 'stock_logfile_%H_%M_%S_%d_%m_%Y.log'))
         logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO)
                 
     def get_date_for_extraction(self, today=date.today(), date_format="%d%m%Y"):
@@ -219,7 +223,6 @@ class StockExtraction():
         None.
 
         """
-        file_name = "sec_bhavdata_full_"+date+".csv"
         target_folder = os.path.join(self.project_structure["Data"], date)
         source_path = os.path.join(self.source_path, file_name)
         target_path = os.path.join(self.project_structure["Data"], date, file_name)
@@ -311,6 +314,11 @@ class StockExtraction():
 
         """
         if date == None:
+            date = self.get_date_for_extraction(date_format="%A")
+            if date == "Sunday" or date == "Saturday":
+                print("Stock market not open on Saturday or Sundays")
+                logging.info("Stock market not open on date:"+date)
+                sys.exit()
             date = self.get_date_for_extraction()
         file_name = "sec_bhavdata_full_"+date+".csv"
         self.extract_bhavcopy_from_nse(file_name)
@@ -318,8 +326,15 @@ class StockExtraction():
         file = os.path.join(self.project_structure["Data"], date, file_name)
         df = pd.read_csv(file).fillna(0)
         df = self.transform_dataframe(df)
+        stock_read = StockRead()
+        unique_stocks = stock_read.get_unique_stocks()
+        trading_date = df['trading_date'].iloc[0]
+        '''
+        for index,row in unique_stocks.iterrows():
+            if row['min_trading_date'] < trading_date:
+                sys.exit()
+        '''
         count_of_records = len(df.index) - 1
-        error_count = 0
         for index, row in df.iterrows():
             data = {}
             data["symbol"] = row["symbol"]
@@ -374,9 +389,365 @@ class StockExtraction():
             error_records = pd.read_csv(os.path.join(self.project_structure["Error records"]["Stock"], file_name))
         error_df = pd.read_json(error_record)
         error_records.append(error_df)
-        error_records.to_csv(file_name)      
+        error_records.to_csv(file_name)
+    
+    def transform_historic_dataframe(self, dataframe):
+        dataframe = dataframe.rename(columns={"Symbol":"symbol",
+                                              "Series":"series",
+                                              "Date":"trading_date",
+                                              "Prev Close":"prev_close",
+                                              "Open Price":"open",
+                                              "High Price":"high",
+                                              "Low Price":"low",
+                                              "Last Price":"last_price",
+                                              "Close Price":"close",
+                                              "Average Price":"avg_price",
+                                              "Total Traded Quantity":"ttl_trd_qnty",
+                                              "Turnover":"turnover_lacs",
+                                              "No. of Trades": "no_of_trades",
+                                              "Deliverable Qty":"deliv_qty",
+                                              "% Dly Qt to Traded Qty":"deliv_per"})
+        dataframe['turnover_lacs'] = dataframe['turnover_lacs'].apply(lambda x: x/100000)
+        dataframe["trading_date"] = dataframe["trading_date"].apply(lambda x: self.change_date(x))
+        return dataframe
+        
+    
+    def find_csv_filenames(self, path_to_dir, suffix=".csv" ):
+        filenames = os.listdir(path_to_dir)
+        return [ filename for filename in filenames if filename.endswith( suffix ) ]
+    
+    def extract_historic_stock_data(self):
+        list_of_paths = [x[0] for x in os.walk(self.historic_data_path)]
+        list_of_stocks = list()
+        for path in list_of_paths:
+            stock_name = path.replace(self.historic_data_path+"\\", "")
+            file_names = self.find_csv_filenames(path)
+            for file in file_names:
+                logging.info("Data Extraction starts for "+file)
+                target_file = os.path.join(path, file)
+                dataframe = pd.read_csv(target_file).fillna(0)
+                dataframe = self.transform_historic_dataframe(dataframe)
+                count_of_records = len(dataframe.index)
+                for index,row in dataframe.iterrows():
+                    data = {}
+                    data['symbol'] = row['symbol']
+                    data['series'] = row['series']
+                    data['trading_date'] = row['trading_date']
+                    data['prev_close'] = row['prev_close']
+                    data['open'] = row['open']
+                    data['high'] = row['high']
+                    data['low'] = row['low']
+                    data['close'] = row['close']
+                    data['last_price'] = row['last_price']
+                    data['avg_price'] = row['avg_price']
+                    data['ttl_trd_qnty'] = row['ttl_trd_qnty']
+                    data['turnover_lacs'] = row['turnover_lacs']
+                    data['no_of_trades'] = row['no_of_trades']
+                    data['deliv_qty'] = row['deliv_qty']
+                    data['deliv_per'] = row['deliv_per']
+                    json_dump = json.dumps(data).encode()
+                    logging.info("Create record "+str(index+1)+" :Symbol-"+str(data["symbol"])+", Date-"+str(data["trading_date"])+", Series-"+str(data["series"]))
+                    print("Progress: "+str(index+1)+"/"+str(count_of_records)+" completed")
+                    print("Creating the record for Symbol:"+str(data["symbol"])+", Date:"+str(data["trading_date"])+", Series:"+str(data["series"]))
+                    self.create_one(json_dump)
+                logging.info("Data Extraction completed for "+file)
+                os.remove(target_file)
+                logging.info("Remove file "+target_file)
+            if file_names:
+                print(file_names)
+    
+    def extract_hist_stock_from_nse(self):
+        pass
     
     #Function for testing the functions 
     def fn_test(self):
         yesterday = self.get_date_for_extraction()
         print(yesterday)
+        
+class IndexExtraction():
+    
+    def __init__(self):
+        """
+        Constructor function : IndexExtraction()
+        Function opens the configuration file and loads the project structure
+        and links required by the functions to extract and load the data to 
+        the API.
+        Project Struture - Dictionary
+            holds the links to internal packages and folders for use
+
+        Returns
+        -------
+        None.
+
+        """
+        __config_file__ = "config.json"
+        config_file_path = "C:\\"+os.path.join("Users", "Arijit Ganguly", 
+                                           "Documents", "PythonProjects",
+                                           "stock_analysis", "stock_analysis", 
+                                           __config_file__)
+        with open(config_file_path, 'r') as json_file:
+            data = json.load(json_file)
+            self.project_structure = data["Project Structure"]
+            self.source_path = data["Project Structure"]["Download"]
+            self.chrome_driver = data["Project Structure"]["Chrome driver"]
+            self.nse_index_link = data["Links"]["Base index url"]
+            self.create_one_index = data["Links"]["indices"]["Create"]
+            self.log_path = self.project_structure["Logs"]
+        LOG_FILENAME = datetime.now().strftime(os.path.join(self.log_path, 'index_logfile_%H_%M_%S_%d_%m_%Y.log'))
+        logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO)
+            
+    
+    def change_date(self, str_date):
+        """
+        Function to change date format from DDMMYYYY to YYYY-MM-DD
+
+        Parameters
+        ----------
+        date : String
+            Date format DDMMYYYY which is bhavcopy format
+
+        Returns
+        -------
+        String
+            Date in the format YYYY-MM-DD which is in the SQL table format
+
+        """
+        year = str_date[6:]
+        month = str_date[3:5]
+        day = str_date[:2]
+        return year+'-'+month+'-'+day
+    
+    def get_date_for_extraction(self, today=date.today(), date_format="%d%m%Y"):
+        """
+        Function to get the latest working day date for extraction
+        If today is a Monday, then it will look for Friday's date.
+        If today is a Sunday, then it will look for Friday's date.
+        
+        Parameters
+        ----------
+        today : date from datetime package, optional
+            This is the current date the program is run and in relation to 
+            which yesterday's date can be found. 
+            The default is datetime.date.today().
+        date_format : String, optional
+            The format in which the date needs to appear. 
+            The default is "%d%m%Y".
+
+        Returns
+        -------
+        yesterday : String
+            Date for the last trading session is returned in 'DDMMYYYY' format
+            unless specified
+        """
+        if today.weekday() == 0:
+            delay = 3
+        elif today.weekday() == 6:
+            delay = 2
+        else:
+            delay = 1
+        yesterday = today - timedelta(days=delay)
+        yesterday = yesterday.strftime(date_format)
+        return yesterday
+    
+    def extract_snapshot_from_nse(self, file_name):
+        """
+        Function to download the copy of bhav copy
+        It uses selenium package to work with Chrome driver to download the
+        file.
+        By default the file downloads in the Downlods folder
+
+        Parameters
+        ----------
+        file_name : String
+            The filename that is required to be extracted.
+
+        Returns
+        -------
+        None.
+
+        """
+        url = self.nse_index_link+file_name
+        driver = webdriver.Chrome(self.chrome_driver)
+        try:
+            driver.get(url)
+            time.sleep(2)
+            print("File dowload successful")
+            logging.info("File download successful")
+            driver.quit()
+        except WebDriverException as e:
+            print(str(e))
+            print("File download not successful")
+            logging.info("File download not successful")
+            logging.debug(str(e))
+    
+    def get_snapshot_file(self, file_name, date):
+        """
+        Function gets the downloaded file from the Downloads folder to the
+        project folder. It creates a new folder under the datasub directory 
+        with the date as the name of the folder and then stores the file in it.
+
+        Parameters
+        ----------
+        file_name : String
+            The file name that needs to be moved to project folder
+        date : String
+            The date for which the extraction is accomplished. 
+            Format for date is DDMMYYYY
+
+        Returns
+        -------
+        None.
+
+        """
+        target_folder = os.path.join(self.project_structure["Data"], date)
+        source_path = os.path.join(self.source_path, file_name)
+        target_path = os.path.join(self.project_structure["Data"], date, file_name)
+        if os.path.isdir(target_folder):
+            print("Folder already exists")
+            logging.info("Folder already exists")
+            shutil.move(source_path, target_path)
+            logging.info("File moved to target folder:"+str(target_path))
+        else:
+            print("Creating folder")
+            logging.info("Creating folder")
+            os.mkdir(target_folder)
+            shutil.move(source_path, target_path)
+            print("Bhavdata file copied from the dowloads folder")
+            logging.info("Bhavdata file copied from the dowloads folder")
+    
+    def transform_dataframe(self, dataframe):
+        dataframe = dataframe.rename(columns={"Index Name":"index_name",
+                                              "Index Date":"trading_date",
+                                              "Open Index Value":"open",
+                                              "High Index Value":"high",
+                                              "Low Index Value":"low",
+                                              "Closing Index Value":"close",
+                                              "Points Change":"pts_change",
+                                              "Change(%)":"change_percent",
+                                              "Volume":"volume",
+                                              "Turnover (Rs. Cr.)":"turnover",
+                                              "P/E":"p_by_e",
+                                              "P/B":"p_by_b",
+                                              "Div Yield":"div_yield"})
+        dataframe.open = dataframe.open.replace({"-":0})
+        dataframe.high = dataframe.high.replace({"-":0})
+        dataframe.low = dataframe.low.replace({"-":0})
+        dataframe.change_percent = dataframe.change_percent.replace({"-":0})
+        dataframe.volume = dataframe.volume.replace({"-":0})
+        dataframe.turnover = dataframe.turnover.replace({"-":0})
+        dataframe.p_by_e = dataframe.p_by_e.replace({"-":0})
+        dataframe.p_by_b = dataframe.p_by_b.replace({"-":0})
+        dataframe.div_yield = dataframe.div_yield.replace({"-":0})
+        dataframe["trading_date"] = dataframe["trading_date"].apply(lambda x: self.change_date(x))
+        dataframe["open"] = dataframe["open"].astype(float)
+        dataframe["high"] = dataframe["high"].astype(float)
+        dataframe["low"] = dataframe["low"].astype(float)
+        dataframe["close"] = dataframe["close"].astype(float)
+        dataframe["change_percent"] = dataframe["change_percent"].astype(float)
+        dataframe["volume"] = dataframe["volume"].astype('int64')
+        dataframe["turnover"] = dataframe["turnover"].astype(float)
+        dataframe["p_by_e"] = dataframe["p_by_e"].astype(float)
+        dataframe["p_by_b"] = dataframe["p_by_b"].astype(float)
+        dataframe["div_yield"] = dataframe["div_yield"].astype(float)
+        return dataframe
+    
+    def create_one(self, json_record):
+        """
+        Function to call the API function create to generate a record in the
+        SQL table
+        Steps:
+            1. Create a PoolManager object to manage connections
+            2. Create a POST request with the required headers to post the 
+                record that is in json_record parameter
+            3. If successful, API sends status HTTP status 201
+            4. If unsuccessful, API sends HTTP status 503 which means data was
+                not loaded into the SQL table
+            5. If status is 503, then call store_erroneous_stock_records to 
+                store the data in the data folder to be loaded later.
+            6. Release the connection
+
+        Parameters
+        ----------
+        json_record : json 
+            This json record is a single record from the dataframe in json
+            format
+
+        Returns
+        -------
+        None.
+
+        """
+        http = urllib3.PoolManager()
+        try:
+            r = http.request('POST', 
+                             self.create_one_index, 
+                             headers={'Content-Type':'application/json',
+                                      'Accept':'*/*',
+                                      'Accept-Encoding':'gzip,deflate,br',
+                                      'Connection':'keep-alive',
+                                      'User-Agent':'Python-Frontend'},
+                             body=json_record)
+            print(r.status)
+            logging.debug(r.status)
+            if str(r.status) == "503":
+                logging.info("Capturing the error record")
+                self.store_erroneous_index_records(json_record)
+            r.release_conn()
+        except urllib3.exceptions.NewConnectionError as e:
+            logging.debug("Error creating the connection:"+str(e))
+            print(str(e))
+    
+    def store_erroneous_index_records(self, error_record):
+        """
+        Function to store the erroneous records in the file to record 
+        and deal with later. This will stop from losing any data and give time
+        understand the error
+        It will look for a file with name stored in file_name in the data folder,
+        erroneous stock subfolder. If not , it will create and then store the
+        record in it
+
+        Parameters
+        ----------
+        error_record : json
+            The record that needs to be stored for the analysis in json format.
+
+        Returns
+        -------
+        None.
+
+        """
+        file_name = "error_index.csv"
+    
+    def extract_daily_index_data(self, date=None):
+        if date == None:
+            date = self.get_date_for_extraction()
+        file_name = "ind_close_all_"+date+".csv"
+        self.extract_snapshot_from_nse(file_name)
+        self.get_snapshot_file(file_name, date)
+        file = os.path.join(self.project_structure["Data"], date, file_name)
+        df = pd.read_csv(file).fillna(0)
+        df = self.transform_dataframe(df)
+        count_of_records = len(df.index) - 1
+        for index, row in df.iterrows():
+            data = {}
+            data["index_name"] = row["index_name"]
+            data["trading_date"] = row["trading_date"]
+            data["open"] = row["open"]
+            data["high"] = row["high"]
+            data["low"] = row["low"]
+            data["close"] = row["close"]
+            data["pts_change"] = row["pts_change"]
+            data["change_percent"] = row["change_percent"]
+            data["volume"] = row["volume"]
+            data["turnover"] = row["turnover"]
+            data["p_by_e"] = row["p_by_e"]
+            data["p_by_b"] = row["p_by_b"]
+            data["div_yield"] = row["div_yield"]
+            
+            json_dump = json.dumps(data).encode()
+            print(json_dump)
+            logging.info("Create record "+str(index)+" :Index-"+str(data["index_name"])+", Date-"+str(data["trading_date"]))
+            print("Progress: "+str(index)+"/"+str(count_of_records)+" completed")
+            print("Creating the record for Index:"+str(data["index_name"])+", Date:"+str(data["trading_date"]))
+            self.create_one(json_dump)
+        logging.info("Data Extraction completed for "+date)

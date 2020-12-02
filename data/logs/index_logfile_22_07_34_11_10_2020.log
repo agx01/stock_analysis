@@ -1,0 +1,2437 @@
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\09102020\ind_close_all_09102020.csv
+INFO:root:Create record 0 :Index-Nifty 50, Date-2020-10-09
+INFO:root:Create record 1 :Index-Nifty Next 50, Date-2020-10-09
+INFO:root:Create record 2 :Index-Nifty 100, Date-2020-10-09
+INFO:root:Create record 3 :Index-Nifty 200, Date-2020-10-09
+INFO:root:Create record 4 :Index-Nifty 500, Date-2020-10-09
+INFO:root:Create record 5 :Index-Nifty Midcap 50, Date-2020-10-09
+INFO:root:Create record 6 :Index-NIFTY Midcap 100, Date-2020-10-09
+INFO:root:Create record 7 :Index-NIFTY Smallcap 100, Date-2020-10-09
+INFO:root:Create record 8 :Index-Nifty50 Dividend Points, Date-2020-10-09
+INFO:root:Create record 9 :Index-Nifty Auto, Date-2020-10-09
+INFO:root:Create record 10 :Index-Nifty Bank, Date-2020-10-09
+INFO:root:Create record 11 :Index-Nifty Energy, Date-2020-10-09
+INFO:root:Create record 12 :Index-Nifty Financial Services, Date-2020-10-09
+INFO:root:Create record 13 :Index-Nifty FMCG, Date-2020-10-09
+INFO:root:Create record 14 :Index-Nifty IT, Date-2020-10-09
+INFO:root:Create record 15 :Index-Nifty Media, Date-2020-10-09
+INFO:root:Create record 16 :Index-Nifty Metal, Date-2020-10-09
+INFO:root:Create record 17 :Index-Nifty MNC, Date-2020-10-09
+INFO:root:Create record 18 :Index-Nifty Pharma, Date-2020-10-09
+INFO:root:Create record 19 :Index-Nifty PSU Bank, Date-2020-10-09
+INFO:root:Create record 20 :Index-Nifty Realty, Date-2020-10-09
+INFO:root:Create record 21 :Index-Nifty India Consumption, Date-2020-10-09
+INFO:root:Create record 22 :Index-Nifty Commodities, Date-2020-10-09
+INFO:root:Create record 23 :Index-Nifty Dividend Opportunities 50, Date-2020-10-09
+INFO:root:Create record 24 :Index-Nifty Infrastructure, Date-2020-10-09
+INFO:root:Create record 25 :Index-Nifty PSE, Date-2020-10-09
+INFO:root:Create record 26 :Index-Nifty Services Sector, Date-2020-10-09
+INFO:root:Create record 27 :Index-Nifty50 Shariah, Date-2020-10-09
+INFO:root:Create record 28 :Index-Nifty500 Shariah, Date-2020-10-09
+INFO:root:Create record 29 :Index-Nifty Low Volatility 50, Date-2020-10-09
+INFO:root:Create record 30 :Index-Nifty Alpha 50, Date-2020-10-09
+INFO:root:Create record 31 :Index-Nifty High Beta 50, Date-2020-10-09
+INFO:root:Create record 32 :Index-Nifty100 Equal Weight, Date-2020-10-09
+INFO:root:Create record 33 :Index-Nifty100 Liquid 15, Date-2020-10-09
+INFO:root:Create record 34 :Index-Nifty CPSE, Date-2020-10-09
+INFO:root:Create record 35 :Index-Nifty50 Value 20, Date-2020-10-09
+INFO:root:Create record 36 :Index-Nifty Midcap Liquid 15, Date-2020-10-09
+INFO:root:Create record 37 :Index-Nifty Shariah 25, Date-2020-10-09
+INFO:root:Create record 38 :Index-India VIX, Date-2020-10-09
+INFO:root:Create record 39 :Index-Nifty Growth Sectors 15, Date-2020-10-09
+INFO:root:Create record 40 :Index-Nifty50 TR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 41 :Index-Nifty50 TR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 42 :Index-Nifty50 PR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 43 :Index-Nifty50 PR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 44 :Index-NIFTY100 Quality 30, Date-2020-10-09
+INFO:root:Create record 45 :Index-Nifty 50 Arbitrage, Date-2020-10-09
+INFO:root:Create record 46 :Index-NIFTY Midcap150 Quality 50, Date-2020-10-09
+INFO:root:Create record 47 :Index-NIFTY Alpha Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 48 :Index-NIFTY SME EMERGE, Date-2020-10-09
+INFO:root:Create record 49 :Index-Nifty100 ESG Sector Leaders, Date-2020-10-09
+INFO:root:Create record 50 :Index-Nifty Smallcap 250, Date-2020-10-09
+INFO:root:Create record 51 :Index-Nifty Smallcap 50, Date-2020-10-09
+INFO:root:Create record 52 :Index-Nifty MidSmallcap 400, Date-2020-10-09
+INFO:root:Create record 53 :Index-NIFTY50 Equal Weight, Date-2020-10-09
+INFO:root:Create record 54 :Index-Nifty200 Momentum 30, Date-2020-10-09
+INFO:root:Create record 55 :Index-NIFTY LargeMidcap 250, Date-2020-10-09
+INFO:root:Create record 56 :Index-Nifty Financial Services 25/50, Date-2020-10-09
+INFO:root:Create record 57 :Index-NIFTY100 ESG, Date-2020-10-09
+INFO:root:Create record 58 :Index-NIFTY100 Enhanced ESG, Date-2020-10-09
+INFO:root:Create record 59 :Index-Nifty Mahindra Group, Date-2020-10-09
+INFO:root:Create record 60 :Index-Nifty Midcap 150, Date-2020-10-09
+INFO:root:Create record 61 :Index-NIFTY Alpha Quality Value Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 62 :Index-NIFTY200 Quality 30, Date-2020-10-09
+INFO:root:Create record 63 :Index-NIFTY500 Value 50, Date-2020-10-09
+INFO:root:Create record 64 :Index-NIFTY100 Alpha 30, Date-2020-10-09
+INFO:root:Create record 65 :Index-Nifty Consumer Durables, Date-2020-10-09
+INFO:root:Create record 66 :Index-Nifty Tata Group 25% Cap, Date-2020-10-09
+INFO:root:Create record 67 :Index-Nifty Private Bank, Date-2020-10-09
+INFO:root:Create record 68 :Index-Nifty100 Low Volatility 30, Date-2020-10-09
+INFO:root:Create record 69 :Index-NIFTY Alpha Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 70 :Index-Nifty Oil & Gas, Date-2020-10-09
+INFO:root:Create record 71 :Index-NIFTY Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 72 :Index-Nifty 50 Futures TR Index, Date-2020-10-09
+INFO:root:Create record 73 :Index-Nifty Tata Group, Date-2020-10-09
+INFO:root:Create record 74 :Index-Nifty Aditya Birla Group, Date-2020-10-09
+INFO:root:Create record 75 :Index-Nifty 50 Futures Index, Date-2020-10-09
+INFO:root:Create record 76 :Index-Nifty 8-13 yr G-Sec, Date-2020-10-09
+INFO:root:Create record 77 :Index-Nifty 4-8 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 78 :Index-Nifty 11-15 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 79 :Index-Nifty 15 yr and above G-Sec Index, Date-2020-10-09
+INFO:root:Create record 80 :Index-Nifty Composite G-sec Index, Date-2020-10-09
+INFO:root:Create record 81 :Index-Nifty 10 yr Benchmark G-Sec, Date-2020-10-09
+INFO:root:Create record 82 :Index-Nifty 10 yr Benchmark G-Sec (Clean Price), Date-2020-10-09
+INFO:root:Create record 83 :Index-Nifty 1D Rate Index, Date-2020-10-09
+INFO:root:Create record 84 :Index-Nifty50 USD, Date-2020-10-09
+INFO:root:Data Extraction completed for 09102020
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\09102020\ind_close_all_09102020.csv
+INFO:root:Create record 0 :Index-Nifty 50, Date-2020-10-09
+INFO:root:Create record 1 :Index-Nifty Next 50, Date-2020-10-09
+INFO:root:Create record 2 :Index-Nifty 100, Date-2020-10-09
+INFO:root:Create record 3 :Index-Nifty 200, Date-2020-10-09
+INFO:root:Create record 4 :Index-Nifty 500, Date-2020-10-09
+INFO:root:Create record 5 :Index-Nifty Midcap 50, Date-2020-10-09
+INFO:root:Create record 6 :Index-NIFTY Midcap 100, Date-2020-10-09
+INFO:root:Create record 7 :Index-NIFTY Smallcap 100, Date-2020-10-09
+INFO:root:Create record 8 :Index-Nifty50 Dividend Points, Date-2020-10-09
+INFO:root:Create record 9 :Index-Nifty Auto, Date-2020-10-09
+INFO:root:Create record 10 :Index-Nifty Bank, Date-2020-10-09
+INFO:root:Create record 11 :Index-Nifty Energy, Date-2020-10-09
+INFO:root:Create record 12 :Index-Nifty Financial Services, Date-2020-10-09
+INFO:root:Create record 13 :Index-Nifty FMCG, Date-2020-10-09
+INFO:root:Create record 14 :Index-Nifty IT, Date-2020-10-09
+INFO:root:Create record 15 :Index-Nifty Media, Date-2020-10-09
+INFO:root:Create record 16 :Index-Nifty Metal, Date-2020-10-09
+INFO:root:Create record 17 :Index-Nifty MNC, Date-2020-10-09
+INFO:root:Create record 18 :Index-Nifty Pharma, Date-2020-10-09
+INFO:root:Create record 19 :Index-Nifty PSU Bank, Date-2020-10-09
+INFO:root:Create record 20 :Index-Nifty Realty, Date-2020-10-09
+INFO:root:Create record 21 :Index-Nifty India Consumption, Date-2020-10-09
+INFO:root:Create record 22 :Index-Nifty Commodities, Date-2020-10-09
+INFO:root:Create record 23 :Index-Nifty Dividend Opportunities 50, Date-2020-10-09
+INFO:root:Create record 24 :Index-Nifty Infrastructure, Date-2020-10-09
+INFO:root:Create record 25 :Index-Nifty PSE, Date-2020-10-09
+INFO:root:Create record 26 :Index-Nifty Services Sector, Date-2020-10-09
+INFO:root:Create record 27 :Index-Nifty50 Shariah, Date-2020-10-09
+INFO:root:Create record 28 :Index-Nifty500 Shariah, Date-2020-10-09
+INFO:root:Create record 29 :Index-Nifty Low Volatility 50, Date-2020-10-09
+INFO:root:Create record 30 :Index-Nifty Alpha 50, Date-2020-10-09
+INFO:root:Create record 31 :Index-Nifty High Beta 50, Date-2020-10-09
+INFO:root:Create record 32 :Index-Nifty100 Equal Weight, Date-2020-10-09
+INFO:root:Create record 33 :Index-Nifty100 Liquid 15, Date-2020-10-09
+INFO:root:Create record 34 :Index-Nifty CPSE, Date-2020-10-09
+INFO:root:Create record 35 :Index-Nifty50 Value 20, Date-2020-10-09
+INFO:root:Create record 36 :Index-Nifty Midcap Liquid 15, Date-2020-10-09
+INFO:root:Create record 37 :Index-Nifty Shariah 25, Date-2020-10-09
+INFO:root:Create record 38 :Index-India VIX, Date-2020-10-09
+INFO:root:Create record 39 :Index-Nifty Growth Sectors 15, Date-2020-10-09
+INFO:root:Create record 40 :Index-Nifty50 TR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 41 :Index-Nifty50 TR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 42 :Index-Nifty50 PR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 43 :Index-Nifty50 PR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 44 :Index-NIFTY100 Quality 30, Date-2020-10-09
+INFO:root:Create record 45 :Index-Nifty 50 Arbitrage, Date-2020-10-09
+INFO:root:Create record 46 :Index-NIFTY Midcap150 Quality 50, Date-2020-10-09
+INFO:root:Create record 47 :Index-NIFTY Alpha Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 48 :Index-NIFTY SME EMERGE, Date-2020-10-09
+INFO:root:Create record 49 :Index-Nifty100 ESG Sector Leaders, Date-2020-10-09
+INFO:root:Create record 50 :Index-Nifty Smallcap 250, Date-2020-10-09
+INFO:root:Create record 51 :Index-Nifty Smallcap 50, Date-2020-10-09
+INFO:root:Create record 52 :Index-Nifty MidSmallcap 400, Date-2020-10-09
+INFO:root:Create record 53 :Index-NIFTY50 Equal Weight, Date-2020-10-09
+INFO:root:Create record 54 :Index-Nifty200 Momentum 30, Date-2020-10-09
+INFO:root:Create record 55 :Index-NIFTY LargeMidcap 250, Date-2020-10-09
+INFO:root:Create record 56 :Index-Nifty Financial Services 25/50, Date-2020-10-09
+INFO:root:Create record 57 :Index-NIFTY100 ESG, Date-2020-10-09
+INFO:root:Create record 58 :Index-NIFTY100 Enhanced ESG, Date-2020-10-09
+INFO:root:Create record 59 :Index-Nifty Mahindra Group, Date-2020-10-09
+INFO:root:Create record 60 :Index-Nifty Midcap 150, Date-2020-10-09
+INFO:root:Create record 61 :Index-NIFTY Alpha Quality Value Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 62 :Index-NIFTY200 Quality 30, Date-2020-10-09
+INFO:root:Create record 63 :Index-NIFTY500 Value 50, Date-2020-10-09
+INFO:root:Create record 64 :Index-NIFTY100 Alpha 30, Date-2020-10-09
+INFO:root:Create record 65 :Index-Nifty Consumer Durables, Date-2020-10-09
+INFO:root:Create record 66 :Index-Nifty Tata Group 25% Cap, Date-2020-10-09
+INFO:root:Create record 67 :Index-Nifty Private Bank, Date-2020-10-09
+INFO:root:Create record 68 :Index-Nifty100 Low Volatility 30, Date-2020-10-09
+INFO:root:Create record 69 :Index-NIFTY Alpha Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 70 :Index-Nifty Oil & Gas, Date-2020-10-09
+INFO:root:Create record 71 :Index-NIFTY Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 72 :Index-Nifty 50 Futures TR Index, Date-2020-10-09
+INFO:root:Create record 73 :Index-Nifty Tata Group, Date-2020-10-09
+INFO:root:Create record 74 :Index-Nifty Aditya Birla Group, Date-2020-10-09
+INFO:root:Create record 75 :Index-Nifty 50 Futures Index, Date-2020-10-09
+INFO:root:Create record 76 :Index-Nifty 8-13 yr G-Sec, Date-2020-10-09
+INFO:root:Create record 77 :Index-Nifty 4-8 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 78 :Index-Nifty 11-15 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 79 :Index-Nifty 15 yr and above G-Sec Index, Date-2020-10-09
+INFO:root:Create record 80 :Index-Nifty Composite G-sec Index, Date-2020-10-09
+INFO:root:Create record 81 :Index-Nifty 10 yr Benchmark G-Sec, Date-2020-10-09
+INFO:root:Create record 82 :Index-Nifty 10 yr Benchmark G-Sec (Clean Price), Date-2020-10-09
+INFO:root:Create record 83 :Index-Nifty 1D Rate Index, Date-2020-10-09
+INFO:root:Create record 84 :Index-Nifty50 USD, Date-2020-10-09
+INFO:root:Data Extraction completed for 09102020
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\09102020\ind_close_all_09102020.csv
+INFO:root:Create record 0 :Index-Nifty 50, Date-2020-10-09
+INFO:root:Create record 1 :Index-Nifty Next 50, Date-2020-10-09
+INFO:root:Create record 2 :Index-Nifty 100, Date-2020-10-09
+INFO:root:Create record 3 :Index-Nifty 200, Date-2020-10-09
+INFO:root:Create record 4 :Index-Nifty 500, Date-2020-10-09
+INFO:root:Create record 5 :Index-Nifty Midcap 50, Date-2020-10-09
+INFO:root:Create record 6 :Index-NIFTY Midcap 100, Date-2020-10-09
+INFO:root:Create record 7 :Index-NIFTY Smallcap 100, Date-2020-10-09
+INFO:root:Create record 8 :Index-Nifty50 Dividend Points, Date-2020-10-09
+INFO:root:Create record 9 :Index-Nifty Auto, Date-2020-10-09
+INFO:root:Create record 10 :Index-Nifty Bank, Date-2020-10-09
+INFO:root:Create record 11 :Index-Nifty Energy, Date-2020-10-09
+INFO:root:Create record 12 :Index-Nifty Financial Services, Date-2020-10-09
+INFO:root:Create record 13 :Index-Nifty FMCG, Date-2020-10-09
+INFO:root:Create record 14 :Index-Nifty IT, Date-2020-10-09
+INFO:root:Create record 15 :Index-Nifty Media, Date-2020-10-09
+INFO:root:Create record 16 :Index-Nifty Metal, Date-2020-10-09
+INFO:root:Create record 17 :Index-Nifty MNC, Date-2020-10-09
+INFO:root:Create record 18 :Index-Nifty Pharma, Date-2020-10-09
+INFO:root:Create record 19 :Index-Nifty PSU Bank, Date-2020-10-09
+INFO:root:Create record 20 :Index-Nifty Realty, Date-2020-10-09
+INFO:root:Create record 21 :Index-Nifty India Consumption, Date-2020-10-09
+INFO:root:Create record 22 :Index-Nifty Commodities, Date-2020-10-09
+INFO:root:Create record 23 :Index-Nifty Dividend Opportunities 50, Date-2020-10-09
+INFO:root:Create record 24 :Index-Nifty Infrastructure, Date-2020-10-09
+INFO:root:Create record 25 :Index-Nifty PSE, Date-2020-10-09
+INFO:root:Create record 26 :Index-Nifty Services Sector, Date-2020-10-09
+INFO:root:Create record 27 :Index-Nifty50 Shariah, Date-2020-10-09
+INFO:root:Create record 28 :Index-Nifty500 Shariah, Date-2020-10-09
+INFO:root:Create record 29 :Index-Nifty Low Volatility 50, Date-2020-10-09
+INFO:root:Create record 30 :Index-Nifty Alpha 50, Date-2020-10-09
+INFO:root:Create record 31 :Index-Nifty High Beta 50, Date-2020-10-09
+INFO:root:Create record 32 :Index-Nifty100 Equal Weight, Date-2020-10-09
+INFO:root:Create record 33 :Index-Nifty100 Liquid 15, Date-2020-10-09
+INFO:root:Create record 34 :Index-Nifty CPSE, Date-2020-10-09
+INFO:root:Create record 35 :Index-Nifty50 Value 20, Date-2020-10-09
+INFO:root:Create record 36 :Index-Nifty Midcap Liquid 15, Date-2020-10-09
+INFO:root:Create record 37 :Index-Nifty Shariah 25, Date-2020-10-09
+INFO:root:Create record 38 :Index-India VIX, Date-2020-10-09
+INFO:root:Create record 39 :Index-Nifty Growth Sectors 15, Date-2020-10-09
+INFO:root:Create record 40 :Index-Nifty50 TR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 41 :Index-Nifty50 TR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 42 :Index-Nifty50 PR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 43 :Index-Nifty50 PR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 44 :Index-NIFTY100 Quality 30, Date-2020-10-09
+INFO:root:Create record 45 :Index-Nifty 50 Arbitrage, Date-2020-10-09
+INFO:root:Create record 46 :Index-NIFTY Midcap150 Quality 50, Date-2020-10-09
+INFO:root:Create record 47 :Index-NIFTY Alpha Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 48 :Index-NIFTY SME EMERGE, Date-2020-10-09
+INFO:root:Create record 49 :Index-Nifty100 ESG Sector Leaders, Date-2020-10-09
+INFO:root:Create record 50 :Index-Nifty Smallcap 250, Date-2020-10-09
+INFO:root:Create record 51 :Index-Nifty Smallcap 50, Date-2020-10-09
+INFO:root:Create record 52 :Index-Nifty MidSmallcap 400, Date-2020-10-09
+INFO:root:Create record 53 :Index-NIFTY50 Equal Weight, Date-2020-10-09
+INFO:root:Create record 54 :Index-Nifty200 Momentum 30, Date-2020-10-09
+INFO:root:Create record 55 :Index-NIFTY LargeMidcap 250, Date-2020-10-09
+INFO:root:Create record 56 :Index-Nifty Financial Services 25/50, Date-2020-10-09
+INFO:root:Create record 57 :Index-NIFTY100 ESG, Date-2020-10-09
+INFO:root:Create record 58 :Index-NIFTY100 Enhanced ESG, Date-2020-10-09
+INFO:root:Create record 59 :Index-Nifty Mahindra Group, Date-2020-10-09
+INFO:root:Create record 60 :Index-Nifty Midcap 150, Date-2020-10-09
+INFO:root:Create record 61 :Index-NIFTY Alpha Quality Value Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 62 :Index-NIFTY200 Quality 30, Date-2020-10-09
+INFO:root:Create record 63 :Index-NIFTY500 Value 50, Date-2020-10-09
+INFO:root:Create record 64 :Index-NIFTY100 Alpha 30, Date-2020-10-09
+INFO:root:Create record 65 :Index-Nifty Consumer Durables, Date-2020-10-09
+INFO:root:Create record 66 :Index-Nifty Tata Group 25% Cap, Date-2020-10-09
+INFO:root:Create record 67 :Index-Nifty Private Bank, Date-2020-10-09
+INFO:root:Create record 68 :Index-Nifty100 Low Volatility 30, Date-2020-10-09
+INFO:root:Create record 69 :Index-NIFTY Alpha Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 70 :Index-Nifty Oil & Gas, Date-2020-10-09
+INFO:root:Create record 71 :Index-NIFTY Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 72 :Index-Nifty 50 Futures TR Index, Date-2020-10-09
+INFO:root:Create record 73 :Index-Nifty Tata Group, Date-2020-10-09
+INFO:root:Create record 74 :Index-Nifty Aditya Birla Group, Date-2020-10-09
+INFO:root:Create record 75 :Index-Nifty 50 Futures Index, Date-2020-10-09
+INFO:root:Create record 76 :Index-Nifty 8-13 yr G-Sec, Date-2020-10-09
+INFO:root:Create record 77 :Index-Nifty 4-8 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 78 :Index-Nifty 11-15 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 79 :Index-Nifty 15 yr and above G-Sec Index, Date-2020-10-09
+INFO:root:Create record 80 :Index-Nifty Composite G-sec Index, Date-2020-10-09
+INFO:root:Create record 81 :Index-Nifty 10 yr Benchmark G-Sec, Date-2020-10-09
+INFO:root:Create record 82 :Index-Nifty 10 yr Benchmark G-Sec (Clean Price), Date-2020-10-09
+INFO:root:Create record 83 :Index-Nifty 1D Rate Index, Date-2020-10-09
+INFO:root:Create record 84 :Index-Nifty50 USD, Date-2020-10-09
+INFO:root:Data Extraction completed for 09102020
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\09102020\ind_close_all_09102020.csv
+INFO:root:Create record 0 :Index-Nifty 50, Date-2020-10-09
+INFO:root:Create record 1 :Index-Nifty Next 50, Date-2020-10-09
+INFO:root:Create record 2 :Index-Nifty 100, Date-2020-10-09
+INFO:root:Create record 3 :Index-Nifty 200, Date-2020-10-09
+INFO:root:Create record 4 :Index-Nifty 500, Date-2020-10-09
+INFO:root:Create record 5 :Index-Nifty Midcap 50, Date-2020-10-09
+INFO:root:Create record 6 :Index-NIFTY Midcap 100, Date-2020-10-09
+INFO:root:Create record 7 :Index-NIFTY Smallcap 100, Date-2020-10-09
+INFO:root:Create record 8 :Index-Nifty50 Dividend Points, Date-2020-10-09
+INFO:root:Create record 9 :Index-Nifty Auto, Date-2020-10-09
+INFO:root:Create record 10 :Index-Nifty Bank, Date-2020-10-09
+INFO:root:Create record 11 :Index-Nifty Energy, Date-2020-10-09
+INFO:root:Create record 12 :Index-Nifty Financial Services, Date-2020-10-09
+INFO:root:Create record 13 :Index-Nifty FMCG, Date-2020-10-09
+INFO:root:Create record 14 :Index-Nifty IT, Date-2020-10-09
+INFO:root:Create record 15 :Index-Nifty Media, Date-2020-10-09
+INFO:root:Create record 16 :Index-Nifty Metal, Date-2020-10-09
+INFO:root:Create record 17 :Index-Nifty MNC, Date-2020-10-09
+INFO:root:Create record 18 :Index-Nifty Pharma, Date-2020-10-09
+INFO:root:Create record 19 :Index-Nifty PSU Bank, Date-2020-10-09
+INFO:root:Create record 20 :Index-Nifty Realty, Date-2020-10-09
+INFO:root:Create record 21 :Index-Nifty India Consumption, Date-2020-10-09
+INFO:root:Create record 22 :Index-Nifty Commodities, Date-2020-10-09
+INFO:root:Create record 23 :Index-Nifty Dividend Opportunities 50, Date-2020-10-09
+INFO:root:Create record 24 :Index-Nifty Infrastructure, Date-2020-10-09
+INFO:root:Create record 25 :Index-Nifty PSE, Date-2020-10-09
+INFO:root:Create record 26 :Index-Nifty Services Sector, Date-2020-10-09
+INFO:root:Create record 27 :Index-Nifty50 Shariah, Date-2020-10-09
+INFO:root:Create record 28 :Index-Nifty500 Shariah, Date-2020-10-09
+INFO:root:Create record 29 :Index-Nifty Low Volatility 50, Date-2020-10-09
+INFO:root:Create record 30 :Index-Nifty Alpha 50, Date-2020-10-09
+INFO:root:Create record 31 :Index-Nifty High Beta 50, Date-2020-10-09
+INFO:root:Create record 32 :Index-Nifty100 Equal Weight, Date-2020-10-09
+INFO:root:Create record 33 :Index-Nifty100 Liquid 15, Date-2020-10-09
+INFO:root:Create record 34 :Index-Nifty CPSE, Date-2020-10-09
+INFO:root:Create record 35 :Index-Nifty50 Value 20, Date-2020-10-09
+INFO:root:Create record 36 :Index-Nifty Midcap Liquid 15, Date-2020-10-09
+INFO:root:Create record 37 :Index-Nifty Shariah 25, Date-2020-10-09
+INFO:root:Create record 38 :Index-India VIX, Date-2020-10-09
+INFO:root:Create record 39 :Index-Nifty Growth Sectors 15, Date-2020-10-09
+INFO:root:Create record 40 :Index-Nifty50 TR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 41 :Index-Nifty50 TR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 42 :Index-Nifty50 PR 1x Inverse, Date-2020-10-09
+INFO:root:Create record 43 :Index-Nifty50 PR 2x Leverage, Date-2020-10-09
+INFO:root:Create record 44 :Index-NIFTY100 Quality 30, Date-2020-10-09
+INFO:root:Create record 45 :Index-Nifty 50 Arbitrage, Date-2020-10-09
+INFO:root:Create record 46 :Index-NIFTY Midcap150 Quality 50, Date-2020-10-09
+INFO:root:Create record 47 :Index-NIFTY Alpha Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 48 :Index-NIFTY SME EMERGE, Date-2020-10-09
+INFO:root:Create record 49 :Index-Nifty100 ESG Sector Leaders, Date-2020-10-09
+INFO:root:Create record 50 :Index-Nifty Smallcap 250, Date-2020-10-09
+INFO:root:Create record 51 :Index-Nifty Smallcap 50, Date-2020-10-09
+INFO:root:Create record 52 :Index-Nifty MidSmallcap 400, Date-2020-10-09
+INFO:root:Create record 53 :Index-NIFTY50 Equal Weight, Date-2020-10-09
+INFO:root:Create record 54 :Index-Nifty200 Momentum 30, Date-2020-10-09
+INFO:root:Create record 55 :Index-NIFTY LargeMidcap 250, Date-2020-10-09
+INFO:root:Create record 56 :Index-Nifty Financial Services 25/50, Date-2020-10-09
+INFO:root:Create record 57 :Index-NIFTY100 ESG, Date-2020-10-09
+INFO:root:Create record 58 :Index-NIFTY100 Enhanced ESG, Date-2020-10-09
+INFO:root:Create record 59 :Index-Nifty Mahindra Group, Date-2020-10-09
+INFO:root:Create record 60 :Index-Nifty Midcap 150, Date-2020-10-09
+INFO:root:Create record 61 :Index-NIFTY Alpha Quality Value Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 62 :Index-NIFTY200 Quality 30, Date-2020-10-09
+INFO:root:Create record 63 :Index-NIFTY500 Value 50, Date-2020-10-09
+INFO:root:Create record 64 :Index-NIFTY100 Alpha 30, Date-2020-10-09
+INFO:root:Create record 65 :Index-Nifty Consumer Durables, Date-2020-10-09
+INFO:root:Create record 66 :Index-Nifty Tata Group 25% Cap, Date-2020-10-09
+INFO:root:Create record 67 :Index-Nifty Private Bank, Date-2020-10-09
+INFO:root:Create record 68 :Index-Nifty100 Low Volatility 30, Date-2020-10-09
+INFO:root:Create record 69 :Index-NIFTY Alpha Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 70 :Index-Nifty Oil & Gas, Date-2020-10-09
+INFO:root:Create record 71 :Index-NIFTY Quality Low-Volatility 30, Date-2020-10-09
+INFO:root:Create record 72 :Index-Nifty 50 Futures TR Index, Date-2020-10-09
+INFO:root:Create record 73 :Index-Nifty Tata Group, Date-2020-10-09
+INFO:root:Create record 74 :Index-Nifty Aditya Birla Group, Date-2020-10-09
+INFO:root:Create record 75 :Index-Nifty 50 Futures Index, Date-2020-10-09
+INFO:root:Create record 76 :Index-Nifty 8-13 yr G-Sec, Date-2020-10-09
+INFO:root:Create record 77 :Index-Nifty 4-8 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 78 :Index-Nifty 11-15 yr G-Sec Index, Date-2020-10-09
+INFO:root:Create record 79 :Index-Nifty 15 yr and above G-Sec Index, Date-2020-10-09
+INFO:root:Create record 80 :Index-Nifty Composite G-sec Index, Date-2020-10-09
+INFO:root:Create record 81 :Index-Nifty 10 yr Benchmark G-Sec, Date-2020-10-09
+INFO:root:Create record 82 :Index-Nifty 10 yr Benchmark G-Sec (Clean Price), Date-2020-10-09
+INFO:root:Create record 83 :Index-Nifty 1D Rate Index, Date-2020-10-09
+INFO:root:Create record 84 :Index-Nifty50 USD, Date-2020-10-09
+INFO:root:Data Extraction completed for 09102020
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\12102020\sec_bhavdata_full_12102020.csv
+INFO:root:Create record 0 :Symbol-20MICRONS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1 :Symbol-21STCENMGM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 2 :Symbol-3IINFOTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 3 :Symbol-3MINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 4 :Symbol-3PLAND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 5 :Symbol-5PAISA, Date-2020-10-12, Series-BE
+INFO:root:Create record 6 :Symbol-618GS2024, Date-2020-10-12, Series-GS
+INFO:root:Create record 7 :Symbol-619GS2034, Date-2020-10-12, Series-GS
+INFO:root:Create record 8 :Symbol-63MOONS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 9 :Symbol-645GS2029, Date-2020-10-12, Series-GS
+INFO:root:Create record 10 :Symbol-719GS2060, Date-2020-10-12, Series-GS
+INFO:root:Create record 11 :Symbol-737GS2023, Date-2020-10-12, Series-GS
+INFO:root:Create record 12 :Symbol-74GS2035, Date-2020-10-12, Series-GS
+INFO:root:Create record 13 :Symbol-772GS2055, Date-2020-10-12, Series-GS
+INFO:root:Create record 14 :Symbol-8KMILES, Date-2020-10-12, Series-BE
+INFO:root:Create record 15 :Symbol-A2ZINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 16 :Symbol-AAKASH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 17 :Symbol-AARON, Date-2020-10-12, Series-SM
+INFO:root:Create record 18 :Symbol-AARTIDRUGS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 19 :Symbol-AARTIIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 20 :Symbol-AARTISURF, Date-2020-10-12, Series-BE
+INFO:root:Create record 21 :Symbol-AARVEEDEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 22 :Symbol-AARVI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 23 :Symbol-AAVAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 24 :Symbol-ABAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 25 :Symbol-ABB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 26 :Symbol-ABBOTINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 27 :Symbol-ABCAPITAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 28 :Symbol-ABFRL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 29 :Symbol-ABFRLPP, Date-2020-10-12, Series-E1
+INFO:root:Create record 30 :Symbol-ABMINTLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 31 :Symbol-ABSLBANETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 32 :Symbol-ABSLNN50ET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 33 :Symbol-ACC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 34 :Symbol-ACCELYA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 35 :Symbol-ACE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 36 :Symbol-ADANIENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 37 :Symbol-ADANIGAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 38 :Symbol-ADANIGREEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 39 :Symbol-ADANIPORTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 40 :Symbol-ADANIPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 41 :Symbol-ADANITRANS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 42 :Symbol-ADFFOODS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 43 :Symbol-ADHUNIKIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 44 :Symbol-ADL, Date-2020-10-12, Series-BE
+INFO:root:Create record 45 :Symbol-ADORWELD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 46 :Symbol-ADROITINFO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 47 :Symbol-ADSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 48 :Symbol-ADVANIHOTR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 49 :Symbol-ADVENZYMES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 50 :Symbol-AEGISCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 51 :Symbol-AFFLE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 52 :Symbol-AGARIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 53 :Symbol-AGCNET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 54 :Symbol-AGRITECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 55 :Symbol-AGROPHOS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 56 :Symbol-AHLADA, Date-2020-10-12, Series-SM
+INFO:root:Create record 57 :Symbol-AHLEAST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 58 :Symbol-AHLUCONT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 59 :Symbol-AHLWEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 60 :Symbol-AIAENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 61 :Symbol-AIRAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 62 :Symbol-AJANTPHARM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 63 :Symbol-AJMERA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 64 :Symbol-AJOONI, Date-2020-10-12, Series-SM
+INFO:root:Create record 65 :Symbol-AKASH, Date-2020-10-12, Series-BE
+INFO:root:Create record 66 :Symbol-AKG, Date-2020-10-12, Series-SM
+INFO:root:Create record 67 :Symbol-AKSHARCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 68 :Symbol-AKSHOPTFBR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 69 :Symbol-AKZOINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 70 :Symbol-ALANKIT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 71 :Symbol-ALBERTDAVD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 72 :Symbol-ALCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 73 :Symbol-ALEMBICLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 74 :Symbol-ALICON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 75 :Symbol-ALKALI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 76 :Symbol-ALKEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 77 :Symbol-ALKYLAMINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 78 :Symbol-ALLCARGO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 79 :Symbol-ALLSEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 80 :Symbol-ALMONDZ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 81 :Symbol-ALOKINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 82 :Symbol-ALPA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 83 :Symbol-ALPHAGEO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 84 :Symbol-AMARAJABAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 85 :Symbol-AMBER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 86 :Symbol-AMBIKCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 87 :Symbol-AMBUJACEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 88 :Symbol-AMDIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 89 :Symbol-AMJLAND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 90 :Symbol-AMRUTANJAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 91 :Symbol-ANANTRAJ, Date-2020-10-12, Series-BE
+INFO:root:Create record 92 :Symbol-ANDHRACEMT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 93 :Symbol-ANDHRAPAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 94 :Symbol-ANDHRSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 95 :Symbol-ANGELBRKG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 96 :Symbol-ANIKINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 97 :Symbol-ANKITMETAL, Date-2020-10-12, Series-BE
+INFO:root:Create record 98 :Symbol-ANSALAPI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 99 :Symbol-ANSALHSG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 100 :Symbol-ANUP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 101 :Symbol-APARINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 102 :Symbol-APCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 103 :Symbol-APCOTEXIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 104 :Symbol-APEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 105 :Symbol-APLAPOLLO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 106 :Symbol-APLLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 107 :Symbol-APOLLO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 108 :Symbol-APOLLOHOSP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 109 :Symbol-APOLLOPIPE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 110 :Symbol-APOLLOTYRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 111 :Symbol-APOLSINHOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 112 :Symbol-APTECHT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 113 :Symbol-ARCHIDPLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 114 :Symbol-ARCHIES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 115 :Symbol-ARCOTECH, Date-2020-10-12, Series-BE
+INFO:root:Create record 116 :Symbol-ARENTERP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 117 :Symbol-ARIES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 118 :Symbol-ARIHANT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 119 :Symbol-ARIHANTSUP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 120 :Symbol-ARMANFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 121 :Symbol-AROGRANITE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 122 :Symbol-ARROWGREEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 123 :Symbol-ARSHIYA, Date-2020-10-12, Series-BE
+INFO:root:Create record 124 :Symbol-ARSSINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 125 :Symbol-ARTEMISMED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 126 :Symbol-ARVIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 127 :Symbol-ARVINDFASN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 128 :Symbol-ARVSMART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 129 :Symbol-ASAHIINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 130 :Symbol-ASAHISONG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 131 :Symbol-ASAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 132 :Symbol-ASALCBR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 133 :Symbol-ASHAPURMIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 134 :Symbol-ASHIANA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 135 :Symbol-ASHIMASYN, Date-2020-10-12, Series-BE
+INFO:root:Create record 136 :Symbol-ASHOKA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 137 :Symbol-ASHOKLEY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 138 :Symbol-ASIANHOTNR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 139 :Symbol-ASIANPAINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 140 :Symbol-ASIANTILES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 141 :Symbol-ASPINWALL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 142 :Symbol-ASTEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 143 :Symbol-ASTERDM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 144 :Symbol-ASTRAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 145 :Symbol-ASTRAMICRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 146 :Symbol-ASTRAZEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 147 :Symbol-ASTRON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 148 :Symbol-ATFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 149 :Symbol-ATLANTA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 150 :Symbol-ATLASCYCLE, Date-2020-10-12, Series-BE
+INFO:root:Create record 151 :Symbol-ATUL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 152 :Symbol-ATULAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 153 :Symbol-AUBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 154 :Symbol-AURIONPRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 155 :Symbol-AUROPHARMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 156 :Symbol-AUSOMENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 157 :Symbol-AUTOAXLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 158 :Symbol-AUTOIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 159 :Symbol-AUTOLITIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 160 :Symbol-AVADHSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 161 :Symbol-AVANTIFEED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 162 :Symbol-AVG, Date-2020-10-12, Series-SM
+INFO:root:Create record 163 :Symbol-AVROIND, Date-2020-10-12, Series-SM
+INFO:root:Create record 164 :Symbol-AVTNPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 165 :Symbol-AXISBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 166 :Symbol-AXISCADES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 167 :Symbol-AXISGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 168 :Symbol-AXISNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 169 :Symbol-AYMSYNTEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 170 :Symbol-BAFNAPH, Date-2020-10-12, Series-BE
+INFO:root:Create record 171 :Symbol-BAGFILMS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 172 :Symbol-BAJAJ-AUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 173 :Symbol-BAJAJCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 174 :Symbol-BAJAJELEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 175 :Symbol-BAJAJFINSV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 176 :Symbol-BAJAJHIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 177 :Symbol-BAJAJHLDNG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 178 :Symbol-BAJFINANCE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 179 :Symbol-BALAJITELE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 180 :Symbol-BALAMINES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 181 :Symbol-BALAXI, Date-2020-10-12, Series-BE
+INFO:root:Create record 182 :Symbol-BALKRISHNA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 183 :Symbol-BALKRISIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 184 :Symbol-BALLARPUR, Date-2020-10-12, Series-BE
+INFO:root:Create record 185 :Symbol-BALMLAWRIE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 186 :Symbol-BALPHARMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 187 :Symbol-BALRAMCHIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 188 :Symbol-BANARBEADS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 189 :Symbol-BANARISUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 190 :Symbol-BANCOINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 191 :Symbol-BANDHANBNK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 192 :Symbol-BANG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 193 :Symbol-BANKA, Date-2020-10-12, Series-SM
+INFO:root:Create record 194 :Symbol-BANKBARODA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 195 :Symbol-BANKBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 196 :Symbol-BANKINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 197 :Symbol-BANSWRAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 198 :Symbol-BARTRONICS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 199 :Symbol-BASF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 200 :Symbol-BASML, Date-2020-10-12, Series-EQ
+INFO:root:Create record 201 :Symbol-BATAINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 202 :Symbol-BAYERCROP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 203 :Symbol-BBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 204 :Symbol-BBTC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 205 :Symbol-BCG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 206 :Symbol-BCP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 207 :Symbol-BDL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 208 :Symbol-BEARDSELL, Date-2020-10-12, Series-BE
+INFO:root:Create record 209 :Symbol-BEDMUTHA, Date-2020-10-12, Series-BE
+INFO:root:Create record 210 :Symbol-BEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 211 :Symbol-BEML, Date-2020-10-12, Series-EQ
+INFO:root:Create record 212 :Symbol-BEPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 213 :Symbol-BERGEPAINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 214 :Symbol-BETA, Date-2020-10-12, Series-SM
+INFO:root:Create record 215 :Symbol-BFINVEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 216 :Symbol-BFUTILITIE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 217 :Symbol-BGRENERGY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 218 :Symbol-BHAGERIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 219 :Symbol-BHAGYANGR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 220 :Symbol-BHAGYAPROP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 221 :Symbol-BHANDARI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 222 :Symbol-BHARATFORG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 223 :Symbol-BHARATGEAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 224 :Symbol-BHARATRAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 225 :Symbol-BHARATWIRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 226 :Symbol-BHARTIARTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 227 :Symbol-BHEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 228 :Symbol-BIGBLOC, Date-2020-10-12, Series-BE
+INFO:root:Create record 229 :Symbol-BIL, Date-2020-10-12, Series-BE
+INFO:root:Create record 230 :Symbol-BILENERGY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 231 :Symbol-BINDALAGRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 232 :Symbol-BIOCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 233 :Symbol-BIOFILCHEM, Date-2020-10-12, Series-BE
+INFO:root:Create record 234 :Symbol-BIRLACABLE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 235 :Symbol-BIRLACORPN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 236 :Symbol-BIRLAMONEY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 237 :Symbol-BIRLATYRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 238 :Symbol-BLBLIMITED, Date-2020-10-12, Series-BE
+INFO:root:Create record 239 :Symbol-BLISSGVS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 240 :Symbol-BLKASHYAP, Date-2020-10-12, Series-BE
+INFO:root:Create record 241 :Symbol-BLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 242 :Symbol-BLUEBLENDS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 243 :Symbol-BLUECHIP, Date-2020-10-12, Series-BE
+INFO:root:Create record 244 :Symbol-BLUECOAST, Date-2020-10-12, Series-BE
+INFO:root:Create record 245 :Symbol-BLUEDART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 246 :Symbol-BLUESTARCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 247 :Symbol-BODALCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 248 :Symbol-BOHRA, Date-2020-10-12, Series-SM
+INFO:root:Create record 249 :Symbol-BOMDYEING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 250 :Symbol-BOROLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 251 :Symbol-BORORENEW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 252 :Symbol-BOSCHLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 253 :Symbol-BPCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 254 :Symbol-BPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 255 :Symbol-BRFL, Date-2020-10-12, Series-BE
+INFO:root:Create record 256 :Symbol-BRIGADE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 257 :Symbol-BRIGHT, Date-2020-10-12, Series-SM
+INFO:root:Create record 258 :Symbol-BRITANNIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 259 :Symbol-BRITANNIA, Date-2020-10-12, Series-N2
+INFO:root:Create record 260 :Symbol-BRNL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 261 :Symbol-BROOKS, Date-2020-10-12, Series-BE
+INFO:root:Create record 262 :Symbol-BSE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 263 :Symbol-BSELINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 264 :Symbol-BSHSL, Date-2020-10-12, Series-SM
+INFO:root:Create record 265 :Symbol-BSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 266 :Symbol-BSLGOLDETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 267 :Symbol-BSLNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 268 :Symbol-BSOFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 269 :Symbol-BURNPUR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 270 :Symbol-BUTTERFLY, Date-2020-10-12, Series-BE
+INFO:root:Create record 271 :Symbol-BVCL, Date-2020-10-12, Series-BE
+INFO:root:Create record 272 :Symbol-BYKE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 273 :Symbol-CADILAHC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 274 :Symbol-CADSYS, Date-2020-10-12, Series-SM
+INFO:root:Create record 275 :Symbol-CALSOFT, Date-2020-10-12, Series-BE
+INFO:root:Create record 276 :Symbol-CAMLINFINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 277 :Symbol-CAMS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 278 :Symbol-CANBK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 279 :Symbol-CANDC, Date-2020-10-12, Series-BZ
+INFO:root:Create record 280 :Symbol-CANFINHOME, Date-2020-10-12, Series-EQ
+INFO:root:Create record 281 :Symbol-CANTABIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 282 :Symbol-CAPACITE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 283 :Symbol-CAPLIPOINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 284 :Symbol-CAPTRUST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 285 :Symbol-CARBORUNIV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 286 :Symbol-CAREERP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 287 :Symbol-CARERATING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 288 :Symbol-CASTEXTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 289 :Symbol-CASTROLIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 290 :Symbol-CCCL, Date-2020-10-12, Series-BE
+INFO:root:Create record 291 :Symbol-CCHHL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 292 :Symbol-CCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 293 :Symbol-CDSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 294 :Symbol-CEATLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 295 :Symbol-CEBBCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 296 :Symbol-CELEBRITY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 297 :Symbol-CENTENKA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 298 :Symbol-CENTEXT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 299 :Symbol-CENTRALBK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 300 :Symbol-CENTRUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 301 :Symbol-CENTUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 302 :Symbol-CENTURYPLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 303 :Symbol-CENTURYTEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 304 :Symbol-CERA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 305 :Symbol-CEREBRAINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 306 :Symbol-CESC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 307 :Symbol-CESCVENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 308 :Symbol-CGCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 309 :Symbol-CGPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 310 :Symbol-CHALET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 311 :Symbol-CHAMBLFERT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 312 :Symbol-CHEMBOND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 313 :Symbol-CHEMCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 314 :Symbol-CHEMFAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 315 :Symbol-CHENNPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 316 :Symbol-CHOLAFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 317 :Symbol-CHOLAHLDNG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 318 :Symbol-CHROMATIC, Date-2020-10-12, Series-BE
+INFO:root:Create record 319 :Symbol-CIGNITITEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 320 :Symbol-CIMMCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 321 :Symbol-CINELINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 322 :Symbol-CINEVISTA, Date-2020-10-12, Series-BE
+INFO:root:Create record 323 :Symbol-CIPLA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 324 :Symbol-CKFSL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 325 :Symbol-CKPLEISURE, Date-2020-10-12, Series-SM
+INFO:root:Create record 326 :Symbol-CLEDUCATE, Date-2020-10-12, Series-BE
+INFO:root:Create record 327 :Symbol-CLNINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 328 :Symbol-CMICABLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 329 :Symbol-CNOVAPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 330 :Symbol-COALINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 331 :Symbol-COCHINSHIP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 332 :Symbol-COFORGE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 333 :Symbol-COLPAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 334 :Symbol-COMPINFO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 335 :Symbol-COMPUSOFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 336 :Symbol-CONCOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 337 :Symbol-CONFIPET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 338 :Symbol-CONSOFINVT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 339 :Symbol-CONTROLPR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 340 :Symbol-CORALFINAC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 341 :Symbol-CORDSCABLE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 342 :Symbol-COROMANDEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 343 :Symbol-COSMOFILMS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 344 :Symbol-COUNCODOS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 345 :Symbol-COX&KINGS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 346 :Symbol-CPSEETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 347 :Symbol-CREATIVE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 348 :Symbol-CREATIVEYE, Date-2020-10-12, Series-BE
+INFO:root:Create record 349 :Symbol-CREDITACC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 350 :Symbol-CREST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 351 :Symbol-CRISIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 352 :Symbol-CROMPTON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 353 :Symbol-CROWN, Date-2020-10-12, Series-SM
+INFO:root:Create record 354 :Symbol-CSBBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 355 :Symbol-CTE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 356 :Symbol-CUB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 357 :Symbol-CUBEXTUB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 358 :Symbol-CUMMINSIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 359 :Symbol-CUPID, Date-2020-10-12, Series-EQ
+INFO:root:Create record 360 :Symbol-CYBERTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 361 :Symbol-CYIENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 362 :Symbol-DAAWAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 363 :Symbol-DABUR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 364 :Symbol-DALBHARAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 365 :Symbol-DALMIASUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 366 :Symbol-DAMODARIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 367 :Symbol-DATAMATICS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 368 :Symbol-DBCORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 369 :Symbol-DBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 370 :Symbol-DBREALTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 371 :Symbol-DBSTOCKBRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 372 :Symbol-DCAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 373 :Symbol-DCBBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 374 :Symbol-DCM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 375 :Symbol-DCMFINSERV, Date-2020-10-12, Series-BE
+INFO:root:Create record 376 :Symbol-DCMNVL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 377 :Symbol-DCMSHRIRAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 378 :Symbol-DCW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 379 :Symbol-DECCANCE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 380 :Symbol-DEEPAKFERT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 381 :Symbol-DEEPAKNTR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 382 :Symbol-DEEPENR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 383 :Symbol-DELTACORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 384 :Symbol-DELTAMAGNT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 385 :Symbol-DEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 386 :Symbol-DENORA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 387 :Symbol-DEVIT, Date-2020-10-12, Series-SM
+INFO:root:Create record 388 :Symbol-DFMFOODS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 389 :Symbol-DGCONTENT, Date-2020-10-12, Series-BE
+INFO:root:Create record 390 :Symbol-DHAMPURSUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 391 :Symbol-DHANBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 392 :Symbol-DHANILOANS, Date-2020-10-12, Series-N1
+INFO:root:Create record 393 :Symbol-DHANILOANS, Date-2020-10-12, Series-N3
+INFO:root:Create record 394 :Symbol-DHANILOANS, Date-2020-10-12, Series-N7
+INFO:root:Create record 395 :Symbol-DHANILOANS, Date-2020-10-12, Series-N8
+INFO:root:Create record 396 :Symbol-DHANILOANS, Date-2020-10-12, Series-NF
+INFO:root:Create record 397 :Symbol-DHANUKA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 398 :Symbol-DHARSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 399 :Symbol-DHFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 400 :Symbol-DHFL, Date-2020-10-12, Series-N6
+INFO:root:Create record 401 :Symbol-DHFL, Date-2020-10-12, Series-NC
+INFO:root:Create record 402 :Symbol-DHFL, Date-2020-10-12, Series-NP
+INFO:root:Create record 403 :Symbol-DHFL, Date-2020-10-12, Series-NQ
+INFO:root:Create record 404 :Symbol-DHFL, Date-2020-10-12, Series-NS
+INFO:root:Create record 405 :Symbol-DHFL, Date-2020-10-12, Series-NX
+INFO:root:Create record 406 :Symbol-DHUNINV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 407 :Symbol-DIAMONDYD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 408 :Symbol-DIAPOWER, Date-2020-10-12, Series-BZ
+INFO:root:Create record 409 :Symbol-DICIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 410 :Symbol-DIGISPICE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 411 :Symbol-DIGJAMLTD, Date-2020-10-12, Series-BZ
+INFO:root:Create record 412 :Symbol-DISHTV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 413 :Symbol-DIVISLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 414 :Symbol-DIXON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 415 :Symbol-DLF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 416 :Symbol-DLINKINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 417 :Symbol-DMART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 418 :Symbol-DOLAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 419 :Symbol-DOLLAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 420 :Symbol-DONEAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 421 :Symbol-DPSCLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 422 :Symbol-DPWIRES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 423 :Symbol-DQE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 424 :Symbol-DREDGECORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 425 :Symbol-DRREDDY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 426 :Symbol-DSML, Date-2020-10-12, Series-SM
+INFO:root:Create record 427 :Symbol-DSSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 428 :Symbol-DTIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 429 :Symbol-DUCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 430 :Symbol-DVL, Date-2020-10-12, Series-BE
+INFO:root:Create record 431 :Symbol-DWARKESH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 432 :Symbol-DYNAMATECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 433 :Symbol-DYNPRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 434 :Symbol-E2E, Date-2020-10-12, Series-SM
+INFO:root:Create record 435 :Symbol-EASUNREYRL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 436 :Symbol-EBBETF0423, Date-2020-10-12, Series-EQ
+INFO:root:Create record 437 :Symbol-EBBETF0425, Date-2020-10-12, Series-EQ
+INFO:root:Create record 438 :Symbol-EBBETF0430, Date-2020-10-12, Series-EQ
+INFO:root:Create record 439 :Symbol-EBBETF0431, Date-2020-10-12, Series-EQ
+INFO:root:Create record 440 :Symbol-EBIXFOREX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 441 :Symbol-ECLERX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 442 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NF
+INFO:root:Create record 443 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NH
+INFO:root:Create record 444 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NI
+INFO:root:Create record 445 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NJ
+INFO:root:Create record 446 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NK
+INFO:root:Create record 447 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NM
+INFO:root:Create record 448 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NN
+INFO:root:Create record 449 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NO
+INFO:root:Create record 450 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NP
+INFO:root:Create record 451 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NQ
+INFO:root:Create record 452 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NR
+INFO:root:Create record 453 :Symbol-ECLFINANCE, Date-2020-10-12, Series-NS
+INFO:root:Create record 454 :Symbol-EDELWEISS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 455 :Symbol-EDUCOMP, Date-2020-10-12, Series-BZ
+INFO:root:Create record 456 :Symbol-EHFLNCD, Date-2020-10-12, Series-N3
+INFO:root:Create record 457 :Symbol-EHFLNCD, Date-2020-10-12, Series-N5
+INFO:root:Create record 458 :Symbol-EHFLNCD, Date-2020-10-12, Series-N6
+INFO:root:Create record 459 :Symbol-EICHERMOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 460 :Symbol-EIDPARRY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 461 :Symbol-EIFFL, Date-2020-10-12, Series-SM
+INFO:root:Create record 462 :Symbol-EIHAHOTELS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 463 :Symbol-EIHOTEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 464 :Symbol-EIMCOELECO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 465 :Symbol-EKC, Date-2020-10-12, Series-BE
+INFO:root:Create record 466 :Symbol-ELECON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 467 :Symbol-ELECTCAST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 468 :Symbol-ELECTHERM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 469 :Symbol-ELGIEQUIP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 470 :Symbol-ELGIRUBCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 471 :Symbol-EMAMILTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 472 :Symbol-EMAMIPAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 473 :Symbol-EMAMIREAL, Date-2020-10-12, Series-BE
+INFO:root:Create record 474 :Symbol-EMBASSY, Date-2020-10-12, Series-RR
+INFO:root:Create record 475 :Symbol-EMCO, Date-2020-10-12, Series-BZ
+INFO:root:Create record 476 :Symbol-EMKAY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 477 :Symbol-EMKAYTOOLS, Date-2020-10-12, Series-SM
+INFO:root:Create record 478 :Symbol-EMMBI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 479 :Symbol-EMOFSR1RDP, Date-2020-10-12, Series-MF
+INFO:root:Create record 480 :Symbol-EMOFSR1RGG, Date-2020-10-12, Series-MF
+INFO:root:Create record 481 :Symbol-ENDURANCE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 482 :Symbol-ENERGYDEV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 483 :Symbol-ENGINERSIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 484 :Symbol-ENIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 485 :Symbol-EON, Date-2020-10-12, Series-BZ
+INFO:root:Create record 486 :Symbol-EQ30, Date-2020-10-12, Series-EQ
+INFO:root:Create record 487 :Symbol-EQUITAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 488 :Symbol-ERFLNCDI, Date-2020-10-12, Series-N3
+INFO:root:Create record 489 :Symbol-ERFLNCDI, Date-2020-10-12, Series-N4
+INFO:root:Create record 490 :Symbol-ERFLNCDI, Date-2020-10-12, Series-N5
+INFO:root:Create record 491 :Symbol-ERIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 492 :Symbol-EROSMEDIA, Date-2020-10-12, Series-BE
+INFO:root:Create record 493 :Symbol-ESABINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 494 :Symbol-ESCORTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 495 :Symbol-ESSARSHPNG, Date-2020-10-12, Series-BE
+INFO:root:Create record 496 :Symbol-ESSELPACK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 497 :Symbol-ESTER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 498 :Symbol-EUROMULTI, Date-2020-10-12, Series-BE
+INFO:root:Create record 499 :Symbol-EVEREADY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 500 :Symbol-EVERESTIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 501 :Symbol-EXCEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 502 :Symbol-EXCELINDUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 503 :Symbol-EXIDEIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 504 :Symbol-EXPLEOSOL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 505 :Symbol-FACT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 506 :Symbol-FAIRCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 507 :Symbol-FCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 508 :Symbol-FCONSUMER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 509 :Symbol-FCSSOFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 510 :Symbol-FDC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 511 :Symbol-FEDERALBNK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 512 :Symbol-FEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 513 :Symbol-FELDVR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 514 :Symbol-FIEMIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 515 :Symbol-FILATEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 516 :Symbol-FILDF2GPD, Date-2020-10-12, Series-MF
+INFO:root:Create record 517 :Symbol-FINCABLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 518 :Symbol-FINEORG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 519 :Symbol-FINPIPE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 520 :Symbol-FLEXITUFF, Date-2020-10-12, Series-BE
+INFO:root:Create record 521 :Symbol-FLFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 522 :Symbol-FLUOROCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 523 :Symbol-FMGOETZE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 524 :Symbol-FMNL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 525 :Symbol-FORCEMOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 526 :Symbol-FORTIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 527 :Symbol-FOSECOIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 528 :Symbol-FRETAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 529 :Symbol-FSC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 530 :Symbol-FSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 531 :Symbol-GABRIEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 532 :Symbol-GAEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 533 :Symbol-GAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 534 :Symbol-GAL, Date-2020-10-12, Series-BE
+INFO:root:Create record 535 :Symbol-GALAXYSURF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 536 :Symbol-GALLANTT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 537 :Symbol-GALLISPAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 538 :Symbol-GAMMNINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 539 :Symbol-GANDHITUBE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 540 :Symbol-GANECOS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 541 :Symbol-GANESHHOUC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 542 :Symbol-GANGAFORGE, Date-2020-10-12, Series-SM
+INFO:root:Create record 543 :Symbol-GANGESSECU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 544 :Symbol-GARDENSILK, Date-2020-10-12, Series-BE
+INFO:root:Create record 545 :Symbol-GARFIBRES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 546 :Symbol-GATI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 547 :Symbol-GAYAHWS, Date-2020-10-12, Series-BE
+INFO:root:Create record 548 :Symbol-GAYAPROJ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 549 :Symbol-GDL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 550 :Symbol-GEECEE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 551 :Symbol-GEEKAYWIRE, Date-2020-10-12, Series-BE
+INFO:root:Create record 552 :Symbol-GENESYS, Date-2020-10-12, Series-BE
+INFO:root:Create record 553 :Symbol-GENUSPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 554 :Symbol-GENUSPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 555 :Symbol-GEOJITFSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 556 :Symbol-GEPIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 557 :Symbol-GESHIP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 558 :Symbol-GET&D, Date-2020-10-12, Series-EQ
+INFO:root:Create record 559 :Symbol-GFLLIMITED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 560 :Symbol-GHCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 561 :Symbol-GICHSGFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 562 :Symbol-GICRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 563 :Symbol-GILLANDERS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 564 :Symbol-GILLETTE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 565 :Symbol-GINNIFILA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 566 :Symbol-GIPCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 567 :Symbol-GKWLIMITED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 568 :Symbol-GLAXO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 569 :Symbol-GLENMARK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 570 :Symbol-GLFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 571 :Symbol-GLOBAL, Date-2020-10-12, Series-SM
+INFO:root:Create record 572 :Symbol-GLOBALVECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 573 :Symbol-GLOBE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 574 :Symbol-GLOBOFFS, Date-2020-10-12, Series-BE
+INFO:root:Create record 575 :Symbol-GLOBUSSPR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 576 :Symbol-GMBREW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 577 :Symbol-GMDCLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 578 :Symbol-GMMPFAUDLR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 579 :Symbol-GMRINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 580 :Symbol-GNA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 581 :Symbol-GNFC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 582 :Symbol-GOACARBON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 583 :Symbol-GOCLCORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 584 :Symbol-GODFRYPHLP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 585 :Symbol-GODHA, Date-2020-10-12, Series-SM
+INFO:root:Create record 586 :Symbol-GODREJAGRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 587 :Symbol-GODREJCP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 588 :Symbol-GODREJIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 589 :Symbol-GODREJPROP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 590 :Symbol-GOENKA, Date-2020-10-12, Series-BZ
+INFO:root:Create record 591 :Symbol-GOKEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 592 :Symbol-GOKUL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 593 :Symbol-GOKULAGRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 594 :Symbol-GOLDBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 595 :Symbol-GOLDENTOBC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 596 :Symbol-GOLDIAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 597 :Symbol-GOLDSHARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 598 :Symbol-GOLDTECH, Date-2020-10-12, Series-BE
+INFO:root:Create record 599 :Symbol-GOODLUCK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 600 :Symbol-GOODYEAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 601 :Symbol-GPIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 602 :Symbol-GPPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 603 :Symbol-GPTINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 604 :Symbol-GRANULES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 605 :Symbol-GRAPHITE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 606 :Symbol-GRASIM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 607 :Symbol-GRAVITA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 608 :Symbol-GREAVESCOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 609 :Symbol-GREENLAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 610 :Symbol-GREENPANEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 611 :Symbol-GREENPLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 612 :Symbol-GREENPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 613 :Symbol-GRINDWELL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 614 :Symbol-GROBTEA, Date-2020-10-12, Series-BE
+INFO:root:Create record 615 :Symbol-GRPLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 616 :Symbol-GRSE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 617 :Symbol-GSCLCEMENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 618 :Symbol-GSFC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 619 :Symbol-GSPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 620 :Symbol-GSS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 621 :Symbol-GTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 622 :Symbol-GTLINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 623 :Symbol-GTNIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 624 :Symbol-GTPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 625 :Symbol-GUFICBIO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 626 :Symbol-GUJALKALI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 627 :Symbol-GUJAPOLLO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 628 :Symbol-GUJGASLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 629 :Symbol-GUJRAFFIA, Date-2020-10-12, Series-BE
+INFO:root:Create record 630 :Symbol-GULFOILLUB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 631 :Symbol-GULFPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 632 :Symbol-GULPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 633 :Symbol-GVKPIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 634 :Symbol-HAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 635 :Symbol-HAPPSTMNDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 636 :Symbol-HARITASEAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 637 :Symbol-HARRMALAYA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 638 :Symbol-HATHWAY, Date-2020-10-12, Series-BE
+INFO:root:Create record 639 :Symbol-HATSUN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 640 :Symbol-HAVELLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 641 :Symbol-HAVISHA, Date-2020-10-12, Series-BE
+INFO:root:Create record 642 :Symbol-HBANKETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 643 :Symbol-HBLPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 644 :Symbol-HCC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 645 :Symbol-HCG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 646 :Symbol-HCL-INSYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 647 :Symbol-HCLTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 648 :Symbol-HDFC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 649 :Symbol-HDFC, Date-2020-10-12, Series-W3
+INFO:root:Create record 650 :Symbol-HDFCAMC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 651 :Symbol-HDFCBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 652 :Symbol-HDFCLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 653 :Symbol-HDFCMFGETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 654 :Symbol-HDFCNIFETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 655 :Symbol-HDFCSENETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 656 :Symbol-HDIL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 657 :Symbol-HEG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 658 :Symbol-HEIDELBERG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 659 :Symbol-HERCULES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 660 :Symbol-HERITGFOOD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 661 :Symbol-HEROMOTOCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 662 :Symbol-HESTERBIO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 663 :Symbol-HEXATRADEX, Date-2020-10-12, Series-BE
+INFO:root:Create record 664 :Symbol-HEXAWARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 665 :Symbol-HFCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 666 :Symbol-HGINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 667 :Symbol-HGS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 668 :Symbol-HHOF1140RD, Date-2020-10-12, Series-MF
+INFO:root:Create record 669 :Symbol-HHOF1140RG, Date-2020-10-12, Series-MF
+INFO:root:Create record 670 :Symbol-HIKAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 671 :Symbol-HIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 672 :Symbol-HILTON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 673 :Symbol-HIMATSEIDE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 674 :Symbol-HINDALCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 675 :Symbol-HINDCOMPOS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 676 :Symbol-HINDCON, Date-2020-10-12, Series-SM
+INFO:root:Create record 677 :Symbol-HINDCOPPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 678 :Symbol-HINDMOTORS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 679 :Symbol-HINDNATGLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 680 :Symbol-HINDOILEXP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 681 :Symbol-HINDPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 682 :Symbol-HINDUNILVR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 683 :Symbol-HINDZINC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 684 :Symbol-HIRECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 685 :Symbol-HISARMETAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 686 :Symbol-HITECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 687 :Symbol-HITECHCORP, Date-2020-10-12, Series-BE
+INFO:root:Create record 688 :Symbol-HITECHGEAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 689 :Symbol-HLVLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 690 :Symbol-HMT, Date-2020-10-12, Series-BZ
+INFO:root:Create record 691 :Symbol-HMVL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 692 :Symbol-HNDFDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 693 :Symbol-HNGSNGBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 694 :Symbol-HONAUT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 695 :Symbol-HONDAPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 696 :Symbol-HOVS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 697 :Symbol-HPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 698 :Symbol-HSCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 699 :Symbol-HSIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 700 :Symbol-HTMEDIA, Date-2020-10-12, Series-BE
+INFO:root:Create record 701 :Symbol-HUBTOWN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 702 :Symbol-HUDCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 703 :Symbol-HUDCO, Date-2020-10-12, Series-N2
+INFO:root:Create record 704 :Symbol-HUDCO, Date-2020-10-12, Series-N3
+INFO:root:Create record 705 :Symbol-HUDCO, Date-2020-10-12, Series-N8
+INFO:root:Create record 706 :Symbol-HUDCO, Date-2020-10-12, Series-ND
+INFO:root:Create record 707 :Symbol-HUDCO, Date-2020-10-12, Series-NE
+INFO:root:Create record 708 :Symbol-HUSYSLTD, Date-2020-10-12, Series-SM
+INFO:root:Create record 709 :Symbol-IBMFNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 710 :Symbol-IBREALEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 711 :Symbol-IBUCCREDIT, Date-2020-10-12, Series-N4
+INFO:root:Create record 712 :Symbol-IBUCCREDIT, Date-2020-10-12, Series-N7
+INFO:root:Create record 713 :Symbol-IBUCCREDIT, Date-2020-10-12, Series-ND
+INFO:root:Create record 714 :Symbol-IBULHSGFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 715 :Symbol-IBULHSGFIN, Date-2020-10-12, Series-N6
+INFO:root:Create record 716 :Symbol-IBULHSGFIN, Date-2020-10-12, Series-NB
+INFO:root:Create record 717 :Symbol-IBULHSGFIN, Date-2020-10-12, Series-NE
+INFO:root:Create record 718 :Symbol-IBULISL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 719 :Symbol-IBVENTPP, Date-2020-10-12, Series-E1
+INFO:root:Create record 720 :Symbol-IBVENTURES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 721 :Symbol-ICEMAKE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 722 :Symbol-ICICI500, Date-2020-10-12, Series-EQ
+INFO:root:Create record 723 :Symbol-ICICIALPLV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 724 :Symbol-ICICIB22, Date-2020-10-12, Series-EQ
+INFO:root:Create record 725 :Symbol-ICICIBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 726 :Symbol-ICICIBANKN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 727 :Symbol-ICICIBANKP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 728 :Symbol-ICICIGI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 729 :Symbol-ICICIGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 730 :Symbol-ICICILIQ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 731 :Symbol-ICICILOVOL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 732 :Symbol-ICICIM150, Date-2020-10-12, Series-EQ
+INFO:root:Create record 733 :Symbol-ICICIMCAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 734 :Symbol-ICICINF100, Date-2020-10-12, Series-EQ
+INFO:root:Create record 735 :Symbol-ICICINIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 736 :Symbol-ICICINV20, Date-2020-10-12, Series-EQ
+INFO:root:Create record 737 :Symbol-ICICINXT50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 738 :Symbol-ICICIPRULI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 739 :Symbol-ICICISENSX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 740 :Symbol-ICICITECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 741 :Symbol-ICIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 742 :Symbol-ICRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 743 :Symbol-IDBI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 744 :Symbol-IDBIGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 745 :Symbol-IDEA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 746 :Symbol-IDFC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 747 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 748 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-N1
+INFO:root:Create record 749 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-N2
+INFO:root:Create record 750 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-N4
+INFO:root:Create record 751 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-N5
+INFO:root:Create record 752 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-N6
+INFO:root:Create record 753 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-NA
+INFO:root:Create record 754 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-NB
+INFO:root:Create record 755 :Symbol-IDFCFIRSTB, Date-2020-10-12, Series-NC
+INFO:root:Create record 756 :Symbol-IDFNIFTYET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 757 :Symbol-IEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 758 :Symbol-IFBAGRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 759 :Symbol-IFBIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 760 :Symbol-IFCI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 761 :Symbol-IFCI, Date-2020-10-12, Series-NH
+INFO:root:Create record 762 :Symbol-IFCI, Date-2020-10-12, Series-NL
+INFO:root:Create record 763 :Symbol-IFGLEXPOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 764 :Symbol-IGARASHI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 765 :Symbol-IGL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 766 :Symbol-IGPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 767 :Symbol-IIFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 768 :Symbol-IIFL, Date-2020-10-12, Series-N3
+INFO:root:Create record 769 :Symbol-IIFL, Date-2020-10-12, Series-N4
+INFO:root:Create record 770 :Symbol-IIFL, Date-2020-10-12, Series-N5
+INFO:root:Create record 771 :Symbol-IIFL, Date-2020-10-12, Series-N6
+INFO:root:Create record 772 :Symbol-IIFL, Date-2020-10-12, Series-N8
+INFO:root:Create record 773 :Symbol-IIFL, Date-2020-10-12, Series-NC
+INFO:root:Create record 774 :Symbol-IIFLSEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 775 :Symbol-IIFLWAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 776 :Symbol-IITL, Date-2020-10-12, Series-BE
+INFO:root:Create record 777 :Symbol-IL&FSENGG, Date-2020-10-12, Series-BZ
+INFO:root:Create record 778 :Symbol-IL&FSTRANS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 779 :Symbol-IMAGICAA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 780 :Symbol-IMFA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 781 :Symbol-IMPAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 782 :Symbol-IMPEXFERRO, Date-2020-10-12, Series-BE
+INFO:root:Create record 783 :Symbol-INDBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 784 :Symbol-INDHOTEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 785 :Symbol-INDIACEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 786 :Symbol-INDIAGLYCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 787 :Symbol-INDIAMART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 788 :Symbol-INDIANB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 789 :Symbol-INDIANCARD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 790 :Symbol-INDIANHUME, Date-2020-10-12, Series-EQ
+INFO:root:Create record 791 :Symbol-INDIGO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 792 :Symbol-INDIGRID, Date-2020-10-12, Series-IV
+INFO:root:Create record 793 :Symbol-INDLMETER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 794 :Symbol-INDNIPPON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 795 :Symbol-INDOCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 796 :Symbol-INDORAMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 797 :Symbol-INDOSOLAR, Date-2020-10-12, Series-BZ
+INFO:root:Create record 798 :Symbol-INDOSTAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 799 :Symbol-INDOTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 800 :Symbol-INDOTHAI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 801 :Symbol-INDOWIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 802 :Symbol-INDRAMEDCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 803 :Symbol-INDSWFTLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 804 :Symbol-INDSWFTLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 805 :Symbol-INDTERRAIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 806 :Symbol-INDUSINDBK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 807 :Symbol-INEOSSTYRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 808 :Symbol-INFIBEAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 809 :Symbol-INFOBEAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 810 :Symbol-INFOMEDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 811 :Symbol-INFRABEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 812 :Symbol-INFRATEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 813 :Symbol-INFY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 814 :Symbol-INGERRAND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 815 :Symbol-INNOVANA, Date-2020-10-12, Series-SM
+INFO:root:Create record 816 :Symbol-INOXLEISUR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 817 :Symbol-INOXWIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 818 :Symbol-INSECTICID, Date-2020-10-12, Series-EQ
+INFO:root:Create record 819 :Symbol-INSPIRISYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 820 :Symbol-INTELLECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 821 :Symbol-INTENTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 822 :Symbol-INVENTURE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 823 :Symbol-IOB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 824 :Symbol-IOC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 825 :Symbol-IOLCP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 826 :Symbol-IPCALAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 827 :Symbol-IRB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 828 :Symbol-IRBINVIT, Date-2020-10-12, Series-IV
+INFO:root:Create record 829 :Symbol-IRCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 830 :Symbol-IRCTC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 831 :Symbol-IREDA, Date-2020-10-12, Series-N2
+INFO:root:Create record 832 :Symbol-IREDA, Date-2020-10-12, Series-N5
+INFO:root:Create record 833 :Symbol-IREDA, Date-2020-10-12, Series-N6
+INFO:root:Create record 834 :Symbol-IRFC, Date-2020-10-12, Series-N1
+INFO:root:Create record 835 :Symbol-IRFC, Date-2020-10-12, Series-N2
+INFO:root:Create record 836 :Symbol-IRFC, Date-2020-10-12, Series-N3
+INFO:root:Create record 837 :Symbol-IRFC, Date-2020-10-12, Series-N4
+INFO:root:Create record 838 :Symbol-IRFC, Date-2020-10-12, Series-N9
+INFO:root:Create record 839 :Symbol-IRFC, Date-2020-10-12, Series-NA
+INFO:root:Create record 840 :Symbol-IRFC, Date-2020-10-12, Series-NE
+INFO:root:Create record 841 :Symbol-IRFC, Date-2020-10-12, Series-NF
+INFO:root:Create record 842 :Symbol-IRFC, Date-2020-10-12, Series-NI
+INFO:root:Create record 843 :Symbol-IRFC, Date-2020-10-12, Series-NK
+INFO:root:Create record 844 :Symbol-IRISDOREME, Date-2020-10-12, Series-SM
+INFO:root:Create record 845 :Symbol-ISEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 846 :Symbol-ISFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 847 :Symbol-ISMTLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 848 :Symbol-ITC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 849 :Symbol-ITDC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 850 :Symbol-ITDCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 851 :Symbol-ITI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 852 :Symbol-IVC, Date-2020-10-12, Series-BE
+INFO:root:Create record 853 :Symbol-IVP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 854 :Symbol-IVZINGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 855 :Symbol-IVZINNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 856 :Symbol-IZMO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 857 :Symbol-J&KBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 858 :Symbol-JAGRAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 859 :Symbol-JAGSNPHARM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 860 :Symbol-JAIBALAJI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 861 :Symbol-JAICORPLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 862 :Symbol-JAIHINDPRO, Date-2020-10-12, Series-BZ
+INFO:root:Create record 863 :Symbol-JAINSTUDIO, Date-2020-10-12, Series-BZ
+INFO:root:Create record 864 :Symbol-JAMNAAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 865 :Symbol-JASH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 866 :Symbol-JAYAGROGN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 867 :Symbol-JAYBARMARU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 868 :Symbol-JAYNECOIND, Date-2020-10-12, Series-BE
+INFO:root:Create record 869 :Symbol-JAYSREETEA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 870 :Symbol-JBCHEPHARM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 871 :Symbol-JBFIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 872 :Symbol-JBMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 873 :Symbol-JCHAC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 874 :Symbol-JETAIRWAYS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 875 :Symbol-JETFREIGHT, Date-2020-10-12, Series-SM
+INFO:root:Create record 876 :Symbol-JHS, Date-2020-10-12, Series-BE
+INFO:root:Create record 877 :Symbol-JIKIND, Date-2020-10-12, Series-BE
+INFO:root:Create record 878 :Symbol-JINDALPHOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 879 :Symbol-JINDALPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 880 :Symbol-JINDALSAW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 881 :Symbol-JINDALSTEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 882 :Symbol-JINDRILL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 883 :Symbol-JINDWORLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 884 :Symbol-JISLDVREQS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 885 :Symbol-JISLJALEQS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 886 :Symbol-JITFINFRA, Date-2020-10-12, Series-BE
+INFO:root:Create record 887 :Symbol-JIYAECO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 888 :Symbol-JKCEMENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 889 :Symbol-JKIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 890 :Symbol-JKLAKSHMI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 891 :Symbol-JKPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 892 :Symbol-JKTYRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 893 :Symbol-JMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 894 :Symbol-JMCPROJECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 895 :Symbol-JMFINANCIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 896 :Symbol-JMTAUTOLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 897 :Symbol-JOCIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 898 :Symbol-JPASSOCIAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 899 :Symbol-JPINFRATEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 900 :Symbol-JPOLYINVST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 901 :Symbol-JPPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 902 :Symbol-JSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 903 :Symbol-JSLHISAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 904 :Symbol-JSWENERGY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 905 :Symbol-JSWHL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 906 :Symbol-JSWISPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 907 :Symbol-JSWSTEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 908 :Symbol-JTEKTINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 909 :Symbol-JUBILANT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 910 :Symbol-JUBLFOOD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 911 :Symbol-JUBLINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 912 :Symbol-JUMPNET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 913 :Symbol-JUNIORBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 914 :Symbol-JUSTDIAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 915 :Symbol-JYOTHYLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 916 :Symbol-JYOTISTRUC, Date-2020-10-12, Series-BZ
+INFO:root:Create record 917 :Symbol-KABRAEXTRU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 918 :Symbol-KAJARIACER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 919 :Symbol-KAKATCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 920 :Symbol-KALPATPOWR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 921 :Symbol-KALYANIFRG, Date-2020-10-12, Series-BE
+INFO:root:Create record 922 :Symbol-KAMATHOTEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 923 :Symbol-KAMDHENU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 924 :Symbol-KANANIIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 925 :Symbol-KANORICHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 926 :Symbol-KANSAINER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 927 :Symbol-KAPSTON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 928 :Symbol-KARDA, Date-2020-10-12, Series-BE
+INFO:root:Create record 929 :Symbol-KARMAENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 930 :Symbol-KARURVYSYA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 931 :Symbol-KAUSHALYA, Date-2020-10-12, Series-BE
+INFO:root:Create record 932 :Symbol-KAYA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 933 :Symbol-KCP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 934 :Symbol-KCPSUGIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 935 :Symbol-KDDL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 936 :Symbol-KEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 937 :Symbol-KECL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 938 :Symbol-KEI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 939 :Symbol-KELLTONTEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 940 :Symbol-KENNAMET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 941 :Symbol-KERNEX, Date-2020-10-12, Series-BE
+INFO:root:Create record 942 :Symbol-KESORAMIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 943 :Symbol-KEYFINSERV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 944 :Symbol-KGL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 945 :Symbol-KHADIM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 946 :Symbol-KHANDSE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 947 :Symbol-KICL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 948 :Symbol-KILITCH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 949 :Symbol-KINGFA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 950 :Symbol-KIOCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 951 :Symbol-KIRIINDUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 952 :Symbol-KIRLFER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 953 :Symbol-KIRLOSBROS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 954 :Symbol-KIRLOSENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 955 :Symbol-KIRLOSIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 956 :Symbol-KITEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 957 :Symbol-KKCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 958 :Symbol-KMSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 959 :Symbol-KNRCON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 960 :Symbol-KOHINOOR, Date-2020-10-12, Series-BZ
+INFO:root:Create record 961 :Symbol-KOKUYOCMLN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 962 :Symbol-KOLTEPATIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 963 :Symbol-KOPRAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 964 :Symbol-KOTAKBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 965 :Symbol-KOTAKBKETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 966 :Symbol-KOTAKGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 967 :Symbol-KOTAKNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 968 :Symbol-KOTAKNV20, Date-2020-10-12, Series-EQ
+INFO:root:Create record 969 :Symbol-KOTAKPSUBK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 970 :Symbol-KOTARISUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 971 :Symbol-KOTHARIPET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 972 :Symbol-KOTHARIPRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 973 :Symbol-KPITTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 974 :Symbol-KPRMILL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 975 :Symbol-KRBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 976 :Symbol-KREBSBIO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 977 :Symbol-KRIDHANINF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 978 :Symbol-KRISHANA, Date-2020-10-12, Series-BE
+INFO:root:Create record 979 :Symbol-KRITIKA, Date-2020-10-12, Series-SM
+INFO:root:Create record 980 :Symbol-KSB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 981 :Symbol-KSCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 982 :Symbol-KSERASERA, Date-2020-10-12, Series-BZ
+INFO:root:Create record 983 :Symbol-KSK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 984 :Symbol-KSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 985 :Symbol-KTKBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 986 :Symbol-KUANTUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 987 :Symbol-KWALITY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 988 :Symbol-L&TFH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 989 :Symbol-L&TFINANCE, Date-2020-10-12, Series-NC
+INFO:root:Create record 990 :Symbol-L&TFINANCE, Date-2020-10-12, Series-NQ
+INFO:root:Create record 991 :Symbol-L&TFINANCE, Date-2020-10-12, Series-NU
+INFO:root:Create record 992 :Symbol-L&TFINANCE, Date-2020-10-12, Series-NW
+INFO:root:Create record 993 :Symbol-L&TFINANCE, Date-2020-10-12, Series-NY
+INFO:root:Create record 994 :Symbol-L&TFINANCE, Date-2020-10-12, Series-Y5
+INFO:root:Create record 995 :Symbol-L&TINFRA, Date-2020-10-12, Series-N1
+INFO:root:Create record 996 :Symbol-L&TINFRA, Date-2020-10-12, Series-N2
+INFO:root:Create record 997 :Symbol-L&TINFRA, Date-2020-10-12, Series-N3
+INFO:root:Create record 998 :Symbol-L&TINFRA, Date-2020-10-12, Series-N4
+INFO:root:Create record 999 :Symbol-L&TINFRA, Date-2020-10-12, Series-N5
+INFO:root:Create record 1000 :Symbol-L&TINFRA, Date-2020-10-12, Series-N6
+INFO:root:Create record 1001 :Symbol-LAKPRE, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1002 :Symbol-LAKSHVILAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1003 :Symbol-LALPATHLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1004 :Symbol-LAMBODHARA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1005 :Symbol-LAOPALA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1006 :Symbol-LASA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1007 :Symbol-LATTEYS, Date-2020-10-12, Series-SM
+INFO:root:Create record 1008 :Symbol-LAURUSLABS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1009 :Symbol-LAXMIMACH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1010 :Symbol-LEMONTREE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1011 :Symbol-LEXUS, Date-2020-10-12, Series-SM
+INFO:root:Create record 1012 :Symbol-LFIC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1013 :Symbol-LGBBROSLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1014 :Symbol-LGBFORGE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1015 :Symbol-LIBAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1016 :Symbol-LIBERTSHOE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1017 :Symbol-LICHSGFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1018 :Symbol-LICNETFGSC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1019 :Symbol-LICNETFN50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1020 :Symbol-LICNETFSEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1021 :Symbol-LICNFNHGP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1022 :Symbol-LINCOLN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1023 :Symbol-LINCPEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1024 :Symbol-LINDEINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1025 :Symbol-LIQUIDBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1026 :Symbol-LIQUIDETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1027 :Symbol-LOKESHMACH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1028 :Symbol-LOTUSEYE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1029 :Symbol-LOVABLE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1030 :Symbol-LPDC, Date-2020-10-12, Series-BE
+INFO:root:Create record 1031 :Symbol-LSIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1032 :Symbol-LT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1033 :Symbol-LTI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1034 :Symbol-LTTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1035 :Symbol-LUMAXIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1036 :Symbol-LUMAXTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1037 :Symbol-LUPIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1038 :Symbol-LUXIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1039 :Symbol-LYKALABS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1040 :Symbol-LYPSAGEMS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1041 :Symbol-M&M, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1042 :Symbol-M&MFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1043 :Symbol-M&MFIN, Date-2020-10-12, Series-N2
+INFO:root:Create record 1044 :Symbol-M100, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1045 :Symbol-M14RG, Date-2020-10-12, Series-MF
+INFO:root:Create record 1046 :Symbol-M50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1047 :Symbol-MAANALU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1048 :Symbol-MACPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1049 :Symbol-MADHAV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1050 :Symbol-MADHUCON, Date-2020-10-12, Series-BE
+INFO:root:Create record 1051 :Symbol-MADRASFERT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1052 :Symbol-MAGADSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1053 :Symbol-MAGMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1054 :Symbol-MAGNUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1055 :Symbol-MAHABANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1056 :Symbol-MAHAPEXLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 1057 :Symbol-MAHASTEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1058 :Symbol-MAHEPC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1059 :Symbol-MAHESHWARI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1060 :Symbol-MAHINDCIE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1061 :Symbol-MAHLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1062 :Symbol-MAHLOG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1063 :Symbol-MAHSCOOTER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1064 :Symbol-MAHSEAMLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1065 :Symbol-MAITHANALL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1066 :Symbol-MAJESCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1067 :Symbol-MALUPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1068 :Symbol-MAN50ETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1069 :Symbol-MANAKALUCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1070 :Symbol-MANAKCOAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1071 :Symbol-MANAKSIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1072 :Symbol-MANAKSTEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1073 :Symbol-MANALIPETC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1074 :Symbol-MANAPPURAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1075 :Symbol-MANGALAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1076 :Symbol-MANGCHEFER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1077 :Symbol-MANGLMCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1078 :Symbol-MANGTIMBER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1079 :Symbol-MANINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1080 :Symbol-MANINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1081 :Symbol-MANUGRAPH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1082 :Symbol-MANXT50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1083 :Symbol-MARALOVER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1084 :Symbol-MARATHON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1085 :Symbol-MARICO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1086 :Symbol-MARINE, Date-2020-10-12, Series-SM
+INFO:root:Create record 1087 :Symbol-MARKSANS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1088 :Symbol-MARSHALL, Date-2020-10-12, Series-SM
+INFO:root:Create record 1089 :Symbol-MARUTI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1090 :Symbol-MASFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1091 :Symbol-MASTEK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1092 :Symbol-MATRIMONY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1093 :Symbol-MAWANASUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1094 :Symbol-MAXHEALTH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1095 :Symbol-MAXIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1096 :Symbol-MAXVIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1097 :Symbol-MAYURUNIQ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1098 :Symbol-MAZDA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1099 :Symbol-MAZDOCK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1100 :Symbol-MBAPL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1101 :Symbol-MBECL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1102 :Symbol-MBLINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1103 :Symbol-MCDHOLDING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1104 :Symbol-MCDOWELL-N, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1105 :Symbol-MCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1106 :Symbol-MCLEODRUSS, Date-2020-10-12, Series-BE
+INFO:root:Create record 1107 :Symbol-MCX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1108 :Symbol-MDL, Date-2020-10-12, Series-SM
+INFO:root:Create record 1109 :Symbol-MEGASOFT, Date-2020-10-12, Series-BE
+INFO:root:Create record 1110 :Symbol-MEGH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1111 :Symbol-MELSTAR, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1112 :Symbol-MENONBE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1113 :Symbol-MEP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1114 :Symbol-MERCATOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1115 :Symbol-METALFORGE, Date-2020-10-12, Series-BE
+INFO:root:Create record 1116 :Symbol-METKORE, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1117 :Symbol-METROPOLIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1118 :Symbol-MFSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1119 :Symbol-MGEL, Date-2020-10-12, Series-SM
+INFO:root:Create record 1120 :Symbol-MGL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1121 :Symbol-MHRIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1122 :Symbol-MIC, Date-2020-10-12, Series-BE
+INFO:root:Create record 1123 :Symbol-MIDHANI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1124 :Symbol-MINDACORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1125 :Symbol-MINDAIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1126 :Symbol-MINDSPACE, Date-2020-10-12, Series-RR
+INFO:root:Create record 1127 :Symbol-MINDTECK, Date-2020-10-12, Series-BE
+INFO:root:Create record 1128 :Symbol-MINDTREE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1129 :Symbol-MIRCELECTR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1130 :Symbol-MIRZAINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1131 :Symbol-MITTAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1132 :Symbol-MMFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1133 :Symbol-MMP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1134 :Symbol-MMTC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1135 :Symbol-MODIRUBBER, Date-2020-10-12, Series-BE
+INFO:root:Create record 1136 :Symbol-MOHOTAIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1137 :Symbol-MOIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1138 :Symbol-MOKSH, Date-2020-10-12, Series-SM
+INFO:root:Create record 1139 :Symbol-MOLDTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1140 :Symbol-MOLDTKPAC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1141 :Symbol-MONTECARLO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1142 :Symbol-MORARJEE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1143 :Symbol-MOREPENLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1144 :Symbol-MOTHERSUMI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1145 :Symbol-MOTILALOFS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1146 :Symbol-MOTOGENFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1147 :Symbol-MPHASIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1148 :Symbol-MPSLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1149 :Symbol-MPTODAY, Date-2020-10-12, Series-SM
+INFO:root:Create record 1150 :Symbol-MRF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1151 :Symbol-MRO-TEK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1152 :Symbol-MRPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1153 :Symbol-MSPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1154 :Symbol-MSTCLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1155 :Symbol-MTEDUCARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1156 :Symbol-MTNL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1157 :Symbol-MUKANDENGG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1158 :Symbol-MUKANDLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1159 :Symbol-MUKANDLTD, Date-2020-10-12, Series-P1
+INFO:root:Create record 1160 :Symbol-MUKTAARTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1161 :Symbol-MUNJALAU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1162 :Symbol-MUNJALSHOW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1163 :Symbol-MURUDCERA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1164 :Symbol-MUTHOOTCAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1165 :Symbol-MUTHOOTFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1166 :Symbol-N100, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1167 :Symbol-NABARD, Date-2020-10-12, Series-N2
+INFO:root:Create record 1168 :Symbol-NACLIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1169 :Symbol-NAGAFERT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1170 :Symbol-NAGREEKEXP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1171 :Symbol-NAHARCAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1172 :Symbol-NAHARINDUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1173 :Symbol-NAHARPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1174 :Symbol-NAHARSPING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1175 :Symbol-NAM-INDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1176 :Symbol-NARMADA, Date-2020-10-12, Series-SM
+INFO:root:Create record 1177 :Symbol-NATCOPHARM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1178 :Symbol-NATHBIOGEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1179 :Symbol-NATIONALUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1180 :Symbol-NATNLSTEEL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1181 :Symbol-NAUKRI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1182 :Symbol-NAVINFLUOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1183 :Symbol-NAVKARCORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1184 :Symbol-NAVNETEDUL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1185 :Symbol-NBCC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1186 :Symbol-NBIFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1187 :Symbol-NBVENTURES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1188 :Symbol-NCC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1189 :Symbol-NCLIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1190 :Symbol-NDGL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1191 :Symbol-NDL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1192 :Symbol-NDRAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1193 :Symbol-NDTV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1194 :Symbol-NECCLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1195 :Symbol-NECLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1196 :Symbol-NELCAST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1197 :Symbol-NELCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1198 :Symbol-NEOGEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1199 :Symbol-NESCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1200 :Symbol-NESTLEIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1201 :Symbol-NETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1202 :Symbol-NETFCONSUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1203 :Symbol-NETFDIVOPP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1204 :Symbol-NETFIT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1205 :Symbol-NETFLTGILT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1206 :Symbol-NETFMID150, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1207 :Symbol-NETFNIF100, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1208 :Symbol-NETFNV20, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1209 :Symbol-NETWORK18, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1210 :Symbol-NEULANDLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1211 :Symbol-NEWGEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1212 :Symbol-NEXTMEDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1213 :Symbol-NFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1214 :Symbol-NH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1215 :Symbol-NHAI, Date-2020-10-12, Series-N1
+INFO:root:Create record 1216 :Symbol-NHAI, Date-2020-10-12, Series-N2
+INFO:root:Create record 1217 :Symbol-NHAI, Date-2020-10-12, Series-N4
+INFO:root:Create record 1218 :Symbol-NHAI, Date-2020-10-12, Series-N6
+INFO:root:Create record 1219 :Symbol-NHAI, Date-2020-10-12, Series-N8
+INFO:root:Create record 1220 :Symbol-NHAI, Date-2020-10-12, Series-NA
+INFO:root:Create record 1221 :Symbol-NHAI, Date-2020-10-12, Series-NC
+INFO:root:Create record 1222 :Symbol-NHAI, Date-2020-10-12, Series-NE
+INFO:root:Create record 1223 :Symbol-NHPC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1224 :Symbol-NIACL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1225 :Symbol-NIBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1226 :Symbol-NIFTYBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1227 :Symbol-NIFTYEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1228 :Symbol-NIITLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1229 :Symbol-NILAINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1230 :Symbol-NILASPACES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1231 :Symbol-NILKAMAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1232 :Symbol-NIPPOBATRY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1233 :Symbol-NIRAJ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1234 :Symbol-NITCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1235 :Symbol-NITINFIRE, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1236 :Symbol-NITINSPIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1237 :Symbol-NKIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1238 :Symbol-NLCINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1239 :Symbol-NMDC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1240 :Symbol-NOCIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1241 :Symbol-NOIDATOLL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1242 :Symbol-NORBTEAEXP, Date-2020-10-12, Series-BE
+INFO:root:Create record 1243 :Symbol-NOVARTIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1244 :Symbol-NPBET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1245 :Symbol-NRAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1246 :Symbol-NRBBEARING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1247 :Symbol-NSIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1248 :Symbol-NTL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1249 :Symbol-NTPC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1250 :Symbol-NTPC, Date-2020-10-12, Series-N6
+INFO:root:Create record 1251 :Symbol-NTPC, Date-2020-10-12, Series-N7
+INFO:root:Create record 1252 :Symbol-NTPC, Date-2020-10-12, Series-ND
+INFO:root:Create record 1253 :Symbol-NUCLEUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1254 :Symbol-NXTDIGITAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1255 :Symbol-OAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1256 :Symbol-OBEROIRLTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1257 :Symbol-OCCL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1258 :Symbol-OFSS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1259 :Symbol-OIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1260 :Symbol-OILCOUNTUB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1261 :Symbol-OISL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1262 :Symbol-OLECTRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1263 :Symbol-OMAXAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1264 :Symbol-OMAXE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1265 :Symbol-OMKARCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1266 :Symbol-OMMETALS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1267 :Symbol-ONELIFECAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1268 :Symbol-ONEPOINT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1269 :Symbol-ONGC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1270 :Symbol-ONMOBILE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1271 :Symbol-ONWARDTEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1272 :Symbol-OPTIEMUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1273 :Symbol-OPTOCIRCUI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1274 :Symbol-ORBTEXP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1275 :Symbol-ORICONENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1276 :Symbol-ORIENTABRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1277 :Symbol-ORIENTALTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1278 :Symbol-ORIENTBELL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1279 :Symbol-ORIENTCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1280 :Symbol-ORIENTELEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1281 :Symbol-ORIENTHOT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1282 :Symbol-ORIENTLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1283 :Symbol-ORIENTPPR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1284 :Symbol-ORIENTREF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1285 :Symbol-ORISSAMINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1286 :Symbol-ORTEL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1287 :Symbol-ORTINLABSS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1288 :Symbol-OSIAHYPER, Date-2020-10-12, Series-SM
+INFO:root:Create record 1289 :Symbol-OSWALAGRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1290 :Symbol-PAGEIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1291 :Symbol-PAISALO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1292 :Symbol-PALASHSECU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1293 :Symbol-PALREDTEC, Date-2020-10-12, Series-BE
+INFO:root:Create record 1294 :Symbol-PANACEABIO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1295 :Symbol-PANACHE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1296 :Symbol-PANAMAPET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1297 :Symbol-PAPERPROD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1298 :Symbol-PAR, Date-2020-10-12, Series-SM
+INFO:root:Create record 1299 :Symbol-PARABDRUGS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1300 :Symbol-PARACABLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1301 :Symbol-PARAGMILK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1302 :Symbol-PARSVNATH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1303 :Symbol-PATELENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1304 :Symbol-PATINTLOG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1305 :Symbol-PATSPINLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1306 :Symbol-PCJEWELLER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1307 :Symbol-PDMJEPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1308 :Symbol-PDSMFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1309 :Symbol-PEARLPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1310 :Symbol-PEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1311 :Symbol-PENIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1312 :Symbol-PENINLAND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1313 :Symbol-PERSISTENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1314 :Symbol-PETRONET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1315 :Symbol-PFC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1316 :Symbol-PFC, Date-2020-10-12, Series-N3
+INFO:root:Create record 1317 :Symbol-PFC, Date-2020-10-12, Series-N4
+INFO:root:Create record 1318 :Symbol-PFC, Date-2020-10-12, Series-N5
+INFO:root:Create record 1319 :Symbol-PFC, Date-2020-10-12, Series-N6
+INFO:root:Create record 1320 :Symbol-PFC, Date-2020-10-12, Series-N8
+INFO:root:Create record 1321 :Symbol-PFIZER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1322 :Symbol-PFOCUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1323 :Symbol-PFS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1324 :Symbol-PGEL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1325 :Symbol-PGHH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1326 :Symbol-PGHL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1327 :Symbol-PGIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1328 :Symbol-PHILIPCARB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1329 :Symbol-PHOENIXLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1330 :Symbol-PIDILITIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1331 :Symbol-PIIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1332 :Symbol-PILANIINVS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1333 :Symbol-PILITA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1334 :Symbol-PIONDIST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1335 :Symbol-PIONEEREMB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1336 :Symbol-PITTIENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1337 :Symbol-PKTEA, Date-2020-10-12, Series-BE
+INFO:root:Create record 1338 :Symbol-PLASTIBLEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1339 :Symbol-PNB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1340 :Symbol-PNBGILTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1341 :Symbol-PNBHOUSING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1342 :Symbol-PNC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1343 :Symbol-PNCINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1344 :Symbol-PODDARHOUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1345 :Symbol-PODDARMENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1346 :Symbol-POKARNA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1347 :Symbol-POLYCAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1348 :Symbol-POLYMED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1349 :Symbol-POLYPLEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1350 :Symbol-PONNIERODE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1351 :Symbol-POWERGRID, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1352 :Symbol-POWERINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1353 :Symbol-POWERMECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1354 :Symbol-PPAP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1355 :Symbol-PPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1356 :Symbol-PRABHAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1357 :Symbol-PRAENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1358 :Symbol-PRAJIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1359 :Symbol-PRAKASH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1360 :Symbol-PRAKASHSTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1361 :Symbol-PRAXIS, Date-2020-10-12, Series-BE
+INFO:root:Create record 1362 :Symbol-PRECAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1363 :Symbol-PRECOT, Date-2020-10-12, Series-BE
+INFO:root:Create record 1364 :Symbol-PRECWIRE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1365 :Symbol-PREMEXPLN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1366 :Symbol-PREMIER, Date-2020-10-12, Series-BE
+INFO:root:Create record 1367 :Symbol-PREMIERPOL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1368 :Symbol-PRESSMN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1369 :Symbol-PRESTIGE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1370 :Symbol-PRICOLLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1371 :Symbol-PRIMESECU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1372 :Symbol-PRINCEPIPE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1373 :Symbol-PROLIFE, Date-2020-10-12, Series-SM
+INFO:root:Create record 1374 :Symbol-PROSEED, Date-2020-10-12, Series-BE
+INFO:root:Create record 1375 :Symbol-PROZONINTU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1376 :Symbol-PRSMJOHNSN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1377 :Symbol-PSB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1378 :Symbol-PSL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1379 :Symbol-PSPPROJECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1380 :Symbol-PSUBNKBEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1381 :Symbol-PTC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1382 :Symbol-PTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1383 :Symbol-PUNJABCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1384 :Symbol-PUNJLLOYD, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1385 :Symbol-PURVA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1386 :Symbol-PVR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1387 :Symbol-QGOLDHALF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1388 :Symbol-QNIFTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1389 :Symbol-QUESS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1390 :Symbol-QUICKHEAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1391 :Symbol-RADAAN, Date-2020-10-12, Series-BE
+INFO:root:Create record 1392 :Symbol-RADICO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1393 :Symbol-RADIOCITY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1394 :Symbol-RAIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1395 :Symbol-RAJESHEXPO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1396 :Symbol-RAJRATAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1397 :Symbol-RAJRAYON, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1398 :Symbol-RAJSREESUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1399 :Symbol-RAJTV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1400 :Symbol-RALLIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1401 :Symbol-RAMANEWS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1402 :Symbol-RAMASTEEL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1403 :Symbol-RAMCOCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1404 :Symbol-RAMCOIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1405 :Symbol-RAMCOSYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1406 :Symbol-RAMKY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1407 :Symbol-RAMSARUP, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1408 :Symbol-RANASUG, Date-2020-10-12, Series-BE
+INFO:root:Create record 1409 :Symbol-RANEENGINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1410 :Symbol-RANEHOLDIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1411 :Symbol-RATNAMANI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1412 :Symbol-RAYMOND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1413 :Symbol-RBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1414 :Symbol-RBLBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1415 :Symbol-RCF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1416 :Symbol-RCOM, Date-2020-10-12, Series-BE
+INFO:root:Create record 1417 :Symbol-RECLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1418 :Symbol-RECLTD, Date-2020-10-12, Series-N8
+INFO:root:Create record 1419 :Symbol-RECLTD, Date-2020-10-12, Series-N9
+INFO:root:Create record 1420 :Symbol-RECLTD, Date-2020-10-12, Series-NA
+INFO:root:Create record 1421 :Symbol-RECLTD, Date-2020-10-12, Series-NF
+INFO:root:Create record 1422 :Symbol-RECLTD, Date-2020-10-12, Series-NG
+INFO:root:Create record 1423 :Symbol-RECLTD, Date-2020-10-12, Series-NI
+INFO:root:Create record 1424 :Symbol-REDINGTON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1425 :Symbol-REFEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1426 :Symbol-RELAXO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1427 :Symbol-RELCAPITAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1428 :Symbol-RELIABLE, Date-2020-10-12, Series-SM
+INFO:root:Create record 1429 :Symbol-RELIANCE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1430 :Symbol-RELIANCEPP, Date-2020-10-12, Series-E1
+INFO:root:Create record 1431 :Symbol-RELIGARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1432 :Symbol-RELINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1433 :Symbol-REMSONSIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1434 :Symbol-RENUKA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1435 :Symbol-REPCOHOME, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1436 :Symbol-REPRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1437 :Symbol-RESPONIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1438 :Symbol-REVATHI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1439 :Symbol-RGL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1440 :Symbol-RHFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1441 :Symbol-RHFL, Date-2020-10-12, Series-N4
+INFO:root:Create record 1442 :Symbol-RHFL, Date-2020-10-12, Series-N6
+INFO:root:Create record 1443 :Symbol-RHFL, Date-2020-10-12, Series-N8
+INFO:root:Create record 1444 :Symbol-RICOAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1445 :Symbol-RIIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1446 :Symbol-RITES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1447 :Symbol-RKDL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1448 :Symbol-RKEC, Date-2020-10-12, Series-SM
+INFO:root:Create record 1449 :Symbol-RKFORGE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1450 :Symbol-RMCL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1451 :Symbol-RML, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1452 :Symbol-RNAVAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1453 :Symbol-ROHITFERRO, Date-2020-10-12, Series-BE
+INFO:root:Create record 1454 :Symbol-ROHLTD, Date-2020-10-12, Series-BE
+INFO:root:Create record 1455 :Symbol-ROLLT, Date-2020-10-12, Series-BE
+INFO:root:Create record 1456 :Symbol-ROLTA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1457 :Symbol-ROML, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1458 :Symbol-ROSSARI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1459 :Symbol-ROSSELLIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1460 :Symbol-ROUTE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1461 :Symbol-RPGLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1462 :Symbol-RPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1463 :Symbol-RPPINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1464 :Symbol-RSSOFTWARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1465 :Symbol-RSWM, Date-2020-10-12, Series-BE
+INFO:root:Create record 1466 :Symbol-RSYSTEMS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1467 :Symbol-RTNINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1468 :Symbol-RTNPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1469 :Symbol-RUBYMILLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1470 :Symbol-RUCHI, Date-2020-10-12, Series-BE
+INFO:root:Create record 1471 :Symbol-RUCHINFRA, Date-2020-10-12, Series-BE
+INFO:root:Create record 1472 :Symbol-RUCHIRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1473 :Symbol-RUPA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1474 :Symbol-RUSHIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1475 :Symbol-RVNL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1476 :Symbol-SABTN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1477 :Symbol-SADBHAV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1478 :Symbol-SADBHIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1479 :Symbol-SAFARI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1480 :Symbol-SAGARDEEP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1481 :Symbol-SAGCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1482 :Symbol-SAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1483 :Symbol-SAKAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1484 :Symbol-SAKHTISUG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1485 :Symbol-SAKSOFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1486 :Symbol-SAKUMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1487 :Symbol-SALASAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1488 :Symbol-SALONA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1489 :Symbol-SALSTEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1490 :Symbol-SALZERELEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1491 :Symbol-SAMBHAAV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1492 :Symbol-SANCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1493 :Symbol-SANDESH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1494 :Symbol-SANDHAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1495 :Symbol-SANGAMIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1496 :Symbol-SANGHIIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1497 :Symbol-SANGHVIFOR, Date-2020-10-12, Series-BE
+INFO:root:Create record 1498 :Symbol-SANGHVIMOV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1499 :Symbol-SANGINITA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1500 :Symbol-SANOFI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1501 :Symbol-SANWARIA, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1502 :Symbol-SARDAEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1503 :Symbol-SAREGAMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1504 :Symbol-SARLAPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1505 :Symbol-SARVESHWAR, Date-2020-10-12, Series-SM
+INFO:root:Create record 1506 :Symbol-SASKEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1507 :Symbol-SASTASUNDR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1508 :Symbol-SATHAISPAT, Date-2020-10-12, Series-BE
+INFO:root:Create record 1509 :Symbol-SATIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1510 :Symbol-SATIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1511 :Symbol-SATINPP, Date-2020-10-12, Series-E1
+INFO:root:Create record 1512 :Symbol-SBICARD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1513 :Symbol-SBIETFQLTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1514 :Symbol-SBILIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1515 :Symbol-SBIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1516 :Symbol-SBIN, Date-2020-10-12, Series-N2
+INFO:root:Create record 1517 :Symbol-SBIN, Date-2020-10-12, Series-N5
+INFO:root:Create record 1518 :Symbol-SBIN, Date-2020-10-12, Series-N6
+INFO:root:Create record 1519 :Symbol-SCAPDVR, Date-2020-10-12, Series-BE
+INFO:root:Create record 1520 :Symbol-SCHAEFFLER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1521 :Symbol-SCHAND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1522 :Symbol-SCHNEIDER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1523 :Symbol-SCI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1524 :Symbol-SDBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1525 :Symbol-SEAMECLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1526 :Symbol-SELAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1527 :Symbol-SELMCL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1528 :Symbol-SEPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1529 :Symbol-SEQUENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1530 :Symbol-SESHAPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1531 :Symbol-SETCO, Date-2020-10-12, Series-BE
+INFO:root:Create record 1532 :Symbol-SETF10GILT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1533 :Symbol-SETFGOLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1534 :Symbol-SETFNIF50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1535 :Symbol-SETFNIFBK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1536 :Symbol-SETFNN50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1537 :Symbol-SETUINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1538 :Symbol-SEYAIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1539 :Symbol-SEZAL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1540 :Symbol-SFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1541 :Symbol-SGBAPR28I, Date-2020-10-12, Series-GB
+INFO:root:Create record 1542 :Symbol-SGBAUG24, Date-2020-10-12, Series-GB
+INFO:root:Create record 1543 :Symbol-SGBAUG27, Date-2020-10-12, Series-GB
+INFO:root:Create record 1544 :Symbol-SGBAUG28V, Date-2020-10-12, Series-GB
+INFO:root:Create record 1545 :Symbol-SGBDC27VII, Date-2020-10-12, Series-GB
+INFO:root:Create record 1546 :Symbol-SGBDEC2513, Date-2020-10-12, Series-GB
+INFO:root:Create record 1547 :Symbol-SGBFEB24, Date-2020-10-12, Series-GB
+INFO:root:Create record 1548 :Symbol-SGBFEB27, Date-2020-10-12, Series-GB
+INFO:root:Create record 1549 :Symbol-SGBFEB28IX, Date-2020-10-12, Series-GB
+INFO:root:Create record 1550 :Symbol-SGBJ28VIII, Date-2020-10-12, Series-GB
+INFO:root:Create record 1551 :Symbol-SGBJUL25, Date-2020-10-12, Series-GB
+INFO:root:Create record 1552 :Symbol-SGBJUL28IV, Date-2020-10-12, Series-GB
+INFO:root:Create record 1553 :Symbol-SGBJUN27, Date-2020-10-12, Series-GB
+INFO:root:Create record 1554 :Symbol-SGBJUN28, Date-2020-10-12, Series-GB
+INFO:root:Create record 1555 :Symbol-SGBMAR24, Date-2020-10-12, Series-GB
+INFO:root:Create record 1556 :Symbol-SGBMAR25, Date-2020-10-12, Series-GB
+INFO:root:Create record 1557 :Symbol-SGBMAR28X, Date-2020-10-12, Series-GB
+INFO:root:Create record 1558 :Symbol-SGBMAY25, Date-2020-10-12, Series-GB
+INFO:root:Create record 1559 :Symbol-SGBMAY26, Date-2020-10-12, Series-GB
+INFO:root:Create record 1560 :Symbol-SGBMAY28, Date-2020-10-12, Series-GB
+INFO:root:Create record 1561 :Symbol-SGBNOV23, Date-2020-10-12, Series-GB
+INFO:root:Create record 1562 :Symbol-SGBNOV24, Date-2020-10-12, Series-GB
+INFO:root:Create record 1563 :Symbol-SGBNOV25, Date-2020-10-12, Series-GB
+INFO:root:Create record 1564 :Symbol-SGBNOV258, Date-2020-10-12, Series-GB
+INFO:root:Create record 1565 :Symbol-SGBNOV25IX, Date-2020-10-12, Series-GB
+INFO:root:Create record 1566 :Symbol-SGBNOV26, Date-2020-10-12, Series-GB
+INFO:root:Create record 1567 :Symbol-SGBOCT25, Date-2020-10-12, Series-GB
+INFO:root:Create record 1568 :Symbol-SGBOCT25IV, Date-2020-10-12, Series-GB
+INFO:root:Create record 1569 :Symbol-SGBOCT25V, Date-2020-10-12, Series-GB
+INFO:root:Create record 1570 :Symbol-SGBOCT26, Date-2020-10-12, Series-GB
+INFO:root:Create record 1571 :Symbol-SGBOCT27, Date-2020-10-12, Series-GB
+INFO:root:Create record 1572 :Symbol-SGBOCT27VI, Date-2020-10-12, Series-GB
+INFO:root:Create record 1573 :Symbol-SGBSEP24, Date-2020-10-12, Series-GB
+INFO:root:Create record 1574 :Symbol-SGBSEP27, Date-2020-10-12, Series-GB
+INFO:root:Create record 1575 :Symbol-SGBSEP28VI, Date-2020-10-12, Series-GB
+INFO:root:Create record 1576 :Symbol-SGL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1577 :Symbol-SHAHALLOYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1578 :Symbol-SHAKTIPUMP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1579 :Symbol-SHALBY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1580 :Symbol-SHALPAINTS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1581 :Symbol-SHANKARA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1582 :Symbol-SHANTIGEAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1583 :Symbol-SHARDACROP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1584 :Symbol-SHARDAMOTR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1585 :Symbol-SHAREINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1586 :Symbol-SHARIABEES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1587 :Symbol-SHEMAROO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1588 :Symbol-SHIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1589 :Symbol-SHILPAMED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1590 :Symbol-SHIRPUR-G, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1591 :Symbol-SHIVAMAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1592 :Symbol-SHIVAMILLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1593 :Symbol-SHIVATEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1594 :Symbol-SHK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1595 :Symbol-SHOPERSTOP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1596 :Symbol-SHRADHA, Date-2020-10-12, Series-SM
+INFO:root:Create record 1597 :Symbol-SHREDIGCEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1598 :Symbol-SHREECEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1599 :Symbol-SHREEPUSHK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1600 :Symbol-SHREERAMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1601 :Symbol-SHRENIK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1602 :Symbol-SHREYANIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1603 :Symbol-SHREYAS, Date-2020-10-12, Series-BE
+INFO:root:Create record 1604 :Symbol-SHRIPISTON, Date-2020-10-12, Series-BE
+INFO:root:Create record 1605 :Symbol-SHRIRAMCIT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1606 :Symbol-SHRIRAMEPC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1607 :Symbol-SHYAMCENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1608 :Symbol-SICAGEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1609 :Symbol-SICAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1610 :Symbol-SIEMENS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1611 :Symbol-SIGIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1612 :Symbol-SIKKO, Date-2020-10-12, Series-SM
+INFO:root:Create record 1613 :Symbol-SIL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1614 :Symbol-SILINV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1615 :Symbol-SILLYMONKS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1616 :Symbol-SIMBHALS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1617 :Symbol-SIMPLEXINF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1618 :Symbol-SINTERCOM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1619 :Symbol-SINTEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1620 :Symbol-SIRCA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1621 :Symbol-SIS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1622 :Symbol-SITINET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1623 :Symbol-SIYSIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1624 :Symbol-SJVN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1625 :Symbol-SKFINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1626 :Symbol-SKIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1627 :Symbol-SKIPPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1628 :Symbol-SKMEGGPROD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1629 :Symbol-SMARTLINK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1630 :Symbol-SMLISUZU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1631 :Symbol-SMPL, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1632 :Symbol-SMSLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1633 :Symbol-SMSPHARMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1634 :Symbol-SMVD, Date-2020-10-12, Series-SM
+INFO:root:Create record 1635 :Symbol-SNOWMAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1636 :Symbol-SOBHA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1637 :Symbol-SOFTTECH, Date-2020-10-12, Series-SM
+INFO:root:Create record 1638 :Symbol-SOLARA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1639 :Symbol-SOLARINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1640 :Symbol-SOMANYCERA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1641 :Symbol-SOMICONVEY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1642 :Symbol-SONATSOFTW, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1643 :Symbol-SORILINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1644 :Symbol-SOTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1645 :Symbol-SOUTHBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1646 :Symbol-SOUTHWEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1647 :Symbol-SPAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1648 :Symbol-SPANDANA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1649 :Symbol-SPARC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1650 :Symbol-SPCENET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1651 :Symbol-SPECIALITY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1652 :Symbol-SPENCERS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1653 :Symbol-SPENTEX, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1654 :Symbol-SPIC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1655 :Symbol-SPICEJET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1656 :Symbol-SPLIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1657 :Symbol-SPMLINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1658 :Symbol-SPTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1659 :Symbol-SPYL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1660 :Symbol-SREEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1661 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-NJ
+INFO:root:Create record 1662 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-NL
+INFO:root:Create record 1663 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-NO
+INFO:root:Create record 1664 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-NV
+INFO:root:Create record 1665 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-NY
+INFO:root:Create record 1666 :Symbol-SREIBNPNCD, Date-2020-10-12, Series-Y1
+INFO:root:Create record 1667 :Symbol-SREINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1668 :Symbol-SRF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1669 :Symbol-SRHHYPOLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1670 :Symbol-SRIPIPES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1671 :Symbol-SRPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1672 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1673 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Y9
+INFO:root:Create record 1674 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YB
+INFO:root:Create record 1675 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YG
+INFO:root:Create record 1676 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YH
+INFO:root:Create record 1677 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YJ
+INFO:root:Create record 1678 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YK
+INFO:root:Create record 1679 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YL
+INFO:root:Create record 1680 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YN
+INFO:root:Create record 1681 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YO
+INFO:root:Create record 1682 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YR
+INFO:root:Create record 1683 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YS
+INFO:root:Create record 1684 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YT
+INFO:root:Create record 1685 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YU
+INFO:root:Create record 1686 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YV
+INFO:root:Create record 1687 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YX
+INFO:root:Create record 1688 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-YY
+INFO:root:Create record 1689 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Z1
+INFO:root:Create record 1690 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Z2
+INFO:root:Create record 1691 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Z3
+INFO:root:Create record 1692 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Z6
+INFO:root:Create record 1693 :Symbol-SRTRANSFIN, Date-2020-10-12, Series-Z7
+INFO:root:Create record 1694 :Symbol-SSWL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1695 :Symbol-STAMPEDE, Date-2020-10-12, Series-BE
+INFO:root:Create record 1696 :Symbol-STAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1697 :Symbol-STARCEMENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1698 :Symbol-STARPAPER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1699 :Symbol-STCINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1700 :Symbol-STEELCITY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1701 :Symbol-STEELXIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1702 :Symbol-STEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1703 :Symbol-STERTOOLS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1704 :Symbol-STRTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1705 :Symbol-SUBCAPCITY, Date-2020-10-12, Series-BE
+INFO:root:Create record 1706 :Symbol-SUBEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1707 :Symbol-SUBROS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1708 :Symbol-SUDARSCHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1709 :Symbol-SUJANAUNI, Date-2020-10-12, Series-BE
+INFO:root:Create record 1710 :Symbol-SUMEETINDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1711 :Symbol-SUMICHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1712 :Symbol-SUMIT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1713 :Symbol-SUMMITSEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1714 :Symbol-SUNCLAYLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1715 :Symbol-SUNDARAM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1716 :Symbol-SUNDARMFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1717 :Symbol-SUNDARMHLD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1718 :Symbol-SUNDRMBRAK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1719 :Symbol-SUNDRMFAST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1720 :Symbol-SUNFLAG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1721 :Symbol-SUNPHARMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1722 :Symbol-SUNTECK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1723 :Symbol-SUNTV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1724 :Symbol-SUPERHOUSE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1725 :Symbol-SUPERSPIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1726 :Symbol-SUPPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1727 :Symbol-SUPRAJIT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1728 :Symbol-SUPREMEENG, Date-2020-10-12, Series-SM
+INFO:root:Create record 1729 :Symbol-SUPREMEIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1730 :Symbol-SUPREMEINF, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1731 :Symbol-SURANASOL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1732 :Symbol-SURANAT&P, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1733 :Symbol-SURYALAXMI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1734 :Symbol-SURYAROSNI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1735 :Symbol-SUTLEJTEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1736 :Symbol-SUULD, Date-2020-10-12, Series-SM
+INFO:root:Create record 1737 :Symbol-SUVEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1738 :Symbol-SUVENPHAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1739 :Symbol-SUZLON, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1740 :Symbol-SVLL, Date-2020-10-12, Series-SM
+INFO:root:Create record 1741 :Symbol-SWANENERGY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1742 :Symbol-SWARAJENG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1743 :Symbol-SWELECTES, Date-2020-10-12, Series-BE
+INFO:root:Create record 1744 :Symbol-SWSOLAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1745 :Symbol-SYMPHONY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1746 :Symbol-SYNCOM, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1747 :Symbol-SYNGENE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1748 :Symbol-TAINWALCHM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1749 :Symbol-TAJGVK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1750 :Symbol-TAKE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1751 :Symbol-TALBROAUTO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1752 :Symbol-TALWALKARS, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1753 :Symbol-TALWGYM, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1754 :Symbol-TANLA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1755 :Symbol-TANTIACONS, Date-2020-10-12, Series-BE
+INFO:root:Create record 1756 :Symbol-TARMAT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1757 :Symbol-TASTYBITE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1758 :Symbol-TATACAPHSG, Date-2020-10-12, Series-N2
+INFO:root:Create record 1759 :Symbol-TATACAPHSG, Date-2020-10-12, Series-N6
+INFO:root:Create record 1760 :Symbol-TATACAPHSG, Date-2020-10-12, Series-NA
+INFO:root:Create record 1761 :Symbol-TATACHEM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1762 :Symbol-TATACOFFEE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1763 :Symbol-TATACOMM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1764 :Symbol-TATACONSUM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1765 :Symbol-TATAELXSI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1766 :Symbol-TATAINVEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1767 :Symbol-TATAMETALI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1768 :Symbol-TATAMOTORS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1769 :Symbol-TATAMTRDVR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1770 :Symbol-TATAPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1771 :Symbol-TATASTEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1772 :Symbol-TATASTLBSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1773 :Symbol-TATASTLLP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1774 :Symbol-TATASTLPP, Date-2020-10-12, Series-E1
+INFO:root:Create record 1775 :Symbol-TBZ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1776 :Symbol-TCFSL, Date-2020-10-12, Series-NB
+INFO:root:Create record 1777 :Symbol-TCFSL, Date-2020-10-12, Series-ND
+INFO:root:Create record 1778 :Symbol-TCFSL, Date-2020-10-12, Series-NF
+INFO:root:Create record 1779 :Symbol-TCFSL, Date-2020-10-12, Series-NH
+INFO:root:Create record 1780 :Symbol-TCFSL, Date-2020-10-12, Series-NJ
+INFO:root:Create record 1781 :Symbol-TCFSL, Date-2020-10-12, Series-NL
+INFO:root:Create record 1782 :Symbol-TCFSL, Date-2020-10-12, Series-NN
+INFO:root:Create record 1783 :Symbol-TCI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1784 :Symbol-TCIDEVELOP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1785 :Symbol-TCIEXP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1786 :Symbol-TCNSBRANDS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1787 :Symbol-TCPLPACK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1788 :Symbol-TCS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1789 :Symbol-TDPOWERSYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1790 :Symbol-TEAMLEASE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1791 :Symbol-TECHM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1792 :Symbol-TECHNOE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1793 :Symbol-TECHNOFAB, Date-2020-10-12, Series-BE
+INFO:root:Create record 1794 :Symbol-TEJASNET, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1795 :Symbol-TERASOFT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1796 :Symbol-TEXINFRA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1797 :Symbol-TEXMOPIPES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1798 :Symbol-TEXRAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1799 :Symbol-TFCILTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1800 :Symbol-TGBHOTELS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1801 :Symbol-THANGAMAYL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1802 :Symbol-THEINVEST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1803 :Symbol-THEMISMED, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1804 :Symbol-THERMAX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1805 :Symbol-THIRUSUGAR, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1806 :Symbol-THOMASCOOK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1807 :Symbol-THOMASCOTT, Date-2020-10-12, Series-BE
+INFO:root:Create record 1808 :Symbol-THYROCARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1809 :Symbol-TI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1810 :Symbol-TIDEWATER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1811 :Symbol-TIIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1812 :Symbol-TIINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1813 :Symbol-TIJARIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1814 :Symbol-TIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1815 :Symbol-TIMESGTY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1816 :Symbol-TIMETECHNO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1817 :Symbol-TIMKEN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1818 :Symbol-TINPLATE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1819 :Symbol-TIPSINDLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1820 :Symbol-TIRUMALCHM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1821 :Symbol-TIRUPATIFL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1822 :Symbol-TITAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1823 :Symbol-TMRVL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1824 :Symbol-TNPETRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1825 :Symbol-TNPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1826 :Symbol-TOKYOPLAST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1827 :Symbol-TORNTPHARM, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1828 :Symbol-TORNTPOWER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1829 :Symbol-TOTAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1830 :Symbol-TOUCHWOOD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1831 :Symbol-TPLPLASTEH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1832 :Symbol-TREEHOUSE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1833 :Symbol-TREJHARA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1834 :Symbol-TRENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1835 :Symbol-TRF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1836 :Symbol-TRIDENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1837 :Symbol-TRIGYN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1838 :Symbol-TRIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1839 :Symbol-TRITURBINE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1840 :Symbol-TRIVENI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1841 :Symbol-TTKHLTCARE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1842 :Symbol-TTKPRESTIG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1843 :Symbol-TTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1844 :Symbol-TTML, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1845 :Symbol-TV18BRDCST, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1846 :Symbol-TVSELECT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1847 :Symbol-TVSMOTOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1848 :Symbol-TVSSRICHAK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1849 :Symbol-TVTODAY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1850 :Symbol-TVVISION, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1851 :Symbol-TWL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1852 :Symbol-UBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1853 :Symbol-UCALFUEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1854 :Symbol-UCOBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1855 :Symbol-UFLEX, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1856 :Symbol-UFO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1857 :Symbol-UGARSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1858 :Symbol-UJAAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1859 :Symbol-UJJIVAN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1860 :Symbol-UJJIVANSFB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1861 :Symbol-ULTRACEMCO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1862 :Symbol-UMANGDAIRY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1863 :Symbol-UMESLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1864 :Symbol-UNICHEMLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1865 :Symbol-UNIDT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1866 :Symbol-UNIENTER, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1867 :Symbol-UNIINFO, Date-2020-10-12, Series-SM
+INFO:root:Create record 1868 :Symbol-UNIONBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1869 :Symbol-UNIPLY, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1870 :Symbol-UNITECH, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1871 :Symbol-UNITEDTEA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1872 :Symbol-UNITY, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1873 :Symbol-UNIVASTU, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1874 :Symbol-UNIVCABLES, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1875 :Symbol-UNIVPHOTO, Date-2020-10-12, Series-BE
+INFO:root:Create record 1876 :Symbol-UPL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1877 :Symbol-URJA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1878 :Symbol-USHAMART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1879 :Symbol-UTIAMC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1880 :Symbol-UTIBANKETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1881 :Symbol-UTINEXT50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1882 :Symbol-UTINIFTETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1883 :Symbol-UTISENSETF, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1884 :Symbol-UTISXN50, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1885 :Symbol-UTTAMSTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1886 :Symbol-UTTAMSUGAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1887 :Symbol-UVSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1888 :Symbol-V2RETAIL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1889 :Symbol-VADILALIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1890 :Symbol-VAIBHAVGBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1891 :Symbol-VAISHALI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1892 :Symbol-VAKRANGEE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1893 :Symbol-VALIANTORG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1894 :Symbol-VARDHACRLC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1895 :Symbol-VARDMNPOLY, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1896 :Symbol-VARROC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1897 :Symbol-VASA, Date-2020-10-12, Series-SM
+INFO:root:Create record 1898 :Symbol-VASCONEQ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1899 :Symbol-VASWANI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1900 :Symbol-VBL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1901 :Symbol-VEDL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1902 :Symbol-VENKEYS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1903 :Symbol-VENUSREM, Date-2020-10-12, Series-BE
+INFO:root:Create record 1904 :Symbol-VERTOZ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1905 :Symbol-VESUVIUS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1906 :Symbol-VETO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1907 :Symbol-VGUARD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1908 :Symbol-VHL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1909 :Symbol-VICEROY, Date-2020-10-12, Series-BE
+INFO:root:Create record 1910 :Symbol-VIDEOIND, Date-2020-10-12, Series-BZ
+INFO:root:Create record 1911 :Symbol-VIDHIING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1912 :Symbol-VIJIFIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1913 :Symbol-VIKASECO, Date-2020-10-12, Series-BE
+INFO:root:Create record 1914 :Symbol-VIKASMCORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1915 :Symbol-VIKASPROP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1916 :Symbol-VIKASWSP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1917 :Symbol-VIMTALABS, Date-2020-10-12, Series-BE
+INFO:root:Create record 1918 :Symbol-VINATIORGA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1919 :Symbol-VINDHYATEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1920 :Symbol-VINYLINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1921 :Symbol-VIPCLOTHNG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1922 :Symbol-VIPIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1923 :Symbol-VIPULLTD, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1924 :Symbol-VISAKAIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1925 :Symbol-VISASTEEL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1926 :Symbol-VISHAL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1927 :Symbol-VISHNU, Date-2020-10-12, Series-BE
+INFO:root:Create record 1928 :Symbol-VISHWARAJ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1929 :Symbol-VIVIDHA, Date-2020-10-12, Series-BE
+INFO:root:Create record 1930 :Symbol-VIVIMEDLAB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1931 :Symbol-VLSFINANCE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1932 :Symbol-VMART, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1933 :Symbol-VOLTAMP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1934 :Symbol-VOLTAS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1935 :Symbol-VRLLOG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1936 :Symbol-VSSL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1937 :Symbol-VSTIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1938 :Symbol-VSTTILLERS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1939 :Symbol-VTL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1940 :Symbol-WABAG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1941 :Symbol-WABCOINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1942 :Symbol-WALCHANNAG, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1943 :Symbol-WANBURY, Date-2020-10-12, Series-BE
+INFO:root:Create record 1944 :Symbol-WATERBASE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1945 :Symbol-WEBELSOLAR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1946 :Symbol-WEIZMANIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1947 :Symbol-WELCORP, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1948 :Symbol-WELENT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1949 :Symbol-WELINV, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1950 :Symbol-WELSPUNIND, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1951 :Symbol-WENDT, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1952 :Symbol-WESTLIFE, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1953 :Symbol-WHEELS, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1954 :Symbol-WHIRLPOOL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1955 :Symbol-WILLAMAGOR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1956 :Symbol-WINDMACHIN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1957 :Symbol-WIPL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1958 :Symbol-WIPRO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1959 :Symbol-WOCKPHARMA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1960 :Symbol-WONDERLA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1961 :Symbol-WORTH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1962 :Symbol-WSI, Date-2020-10-12, Series-BE
+INFO:root:Create record 1963 :Symbol-WSTCSTPAPR, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1964 :Symbol-XCHANGING, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1965 :Symbol-XELPMOC, Date-2020-10-12, Series-BE
+INFO:root:Create record 1966 :Symbol-XPROINDIA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1967 :Symbol-YESBANK, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1968 :Symbol-ZEEL, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1969 :Symbol-ZEEL, Date-2020-10-12, Series-P2
+INFO:root:Create record 1970 :Symbol-ZEELEARN, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1971 :Symbol-ZEEMEDIA, Date-2020-10-12, Series-BE
+INFO:root:Create record 1972 :Symbol-ZENITHEXPO, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1973 :Symbol-ZENITHSTL, Date-2020-10-12, Series-BE
+INFO:root:Create record 1974 :Symbol-ZENSARTECH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1975 :Symbol-ZENTEC, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1976 :Symbol-ZICOM, Date-2020-10-12, Series-BE
+INFO:root:Create record 1977 :Symbol-ZODIAC, Date-2020-10-12, Series-SM
+INFO:root:Create record 1978 :Symbol-ZODIACLOTH, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1979 :Symbol-ZODJRDMKJ, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1980 :Symbol-ZOTA, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1981 :Symbol-ZUARI, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1982 :Symbol-ZUARIGLOB, Date-2020-10-12, Series-EQ
+INFO:root:Create record 1983 :Symbol-ZYDUSWELL, Date-2020-10-12, Series-EQ
+INFO:root:Data Extraction completed for 12102020
+INFO:root:File download successful
+INFO:root:Folder already exists
+INFO:root:File moved to target folder:C:\Users\Arijit Ganguly\Documents\PythonProjects\stock_analysis\data\12102020\ind_close_all_12102020.csv
+INFO:root:Create record 0 :Index-Nifty 50, Date-2020-10-12
+INFO:root:Create record 1 :Index-Nifty Next 50, Date-2020-10-12
+INFO:root:Create record 2 :Index-Nifty 100, Date-2020-10-12
+INFO:root:Create record 3 :Index-Nifty 200, Date-2020-10-12
+INFO:root:Create record 4 :Index-Nifty 500, Date-2020-10-12
+INFO:root:Create record 5 :Index-Nifty Midcap 50, Date-2020-10-12
+INFO:root:Create record 6 :Index-NIFTY Midcap 100, Date-2020-10-12
+INFO:root:Create record 7 :Index-NIFTY Smallcap 100, Date-2020-10-12
+INFO:root:Create record 8 :Index-Nifty50 Dividend Points, Date-2020-10-12
+INFO:root:Create record 9 :Index-Nifty Auto, Date-2020-10-12
+INFO:root:Create record 10 :Index-Nifty Bank, Date-2020-10-12
+INFO:root:Create record 11 :Index-Nifty Energy, Date-2020-10-12
+INFO:root:Create record 12 :Index-Nifty Financial Services, Date-2020-10-12
+INFO:root:Create record 13 :Index-Nifty FMCG, Date-2020-10-12
+INFO:root:Create record 14 :Index-Nifty IT, Date-2020-10-12
+INFO:root:Create record 15 :Index-Nifty Media, Date-2020-10-12
+INFO:root:Create record 16 :Index-Nifty Metal, Date-2020-10-12
+INFO:root:Create record 17 :Index-Nifty MNC, Date-2020-10-12
+INFO:root:Create record 18 :Index-Nifty Pharma, Date-2020-10-12
+INFO:root:Create record 19 :Index-Nifty PSU Bank, Date-2020-10-12
+INFO:root:Create record 20 :Index-Nifty Realty, Date-2020-10-12
+INFO:root:Create record 21 :Index-Nifty India Consumption, Date-2020-10-12
+INFO:root:Create record 22 :Index-Nifty Commodities, Date-2020-10-12
+INFO:root:Create record 23 :Index-Nifty Dividend Opportunities 50, Date-2020-10-12
+INFO:root:Create record 24 :Index-Nifty Infrastructure, Date-2020-10-12
+INFO:root:Create record 25 :Index-Nifty PSE, Date-2020-10-12
+INFO:root:Create record 26 :Index-Nifty Services Sector, Date-2020-10-12
+INFO:root:Create record 27 :Index-Nifty50 Shariah, Date-2020-10-12
+INFO:root:Create record 28 :Index-Nifty500 Shariah, Date-2020-10-12
+INFO:root:Create record 29 :Index-Nifty Low Volatility 50, Date-2020-10-12
+INFO:root:Create record 30 :Index-Nifty Alpha 50, Date-2020-10-12
+INFO:root:Create record 31 :Index-Nifty High Beta 50, Date-2020-10-12
+INFO:root:Create record 32 :Index-Nifty100 Equal Weight, Date-2020-10-12
+INFO:root:Create record 33 :Index-Nifty100 Liquid 15, Date-2020-10-12
+INFO:root:Create record 34 :Index-Nifty CPSE, Date-2020-10-12
+INFO:root:Create record 35 :Index-Nifty50 Value 20, Date-2020-10-12
+INFO:root:Create record 36 :Index-Nifty Midcap Liquid 15, Date-2020-10-12
+INFO:root:Create record 37 :Index-Nifty Shariah 25, Date-2020-10-12
+INFO:root:Create record 38 :Index-India VIX, Date-2020-10-12
+INFO:root:Create record 39 :Index-Nifty Growth Sectors 15, Date-2020-10-12
+INFO:root:Create record 40 :Index-Nifty50 TR 1x Inverse, Date-2020-10-12
+INFO:root:Create record 41 :Index-Nifty50 TR 2x Leverage, Date-2020-10-12
+INFO:root:Create record 42 :Index-Nifty50 PR 1x Inverse, Date-2020-10-12
+INFO:root:Create record 43 :Index-Nifty50 PR 2x Leverage, Date-2020-10-12
+INFO:root:Create record 44 :Index-NIFTY100 Quality 30, Date-2020-10-12
+INFO:root:Create record 45 :Index-Nifty Consumer Durables, Date-2020-10-12
+INFO:root:Create record 46 :Index-Nifty 50 Arbitrage, Date-2020-10-12
+INFO:root:Create record 47 :Index-NIFTY50 Equal Weight, Date-2020-10-12
+INFO:root:Create record 48 :Index-Nifty100 Low Volatility 30, Date-2020-10-12
+INFO:root:Create record 49 :Index-NIFTY Alpha Low-Volatility 30, Date-2020-10-12
+INFO:root:Create record 50 :Index-NIFTY Quality Low-Volatility 30, Date-2020-10-12
+INFO:root:Create record 51 :Index-NIFTY Alpha Quality Low-Volatility 30, Date-2020-10-12
+INFO:root:Create record 52 :Index-NIFTY Alpha Quality Value Low-Volatility 30, Date-2020-10-12
+INFO:root:Create record 53 :Index-NIFTY200 Quality 30, Date-2020-10-12
+INFO:root:Create record 54 :Index-NIFTY Midcap150 Quality 50, Date-2020-10-12
+INFO:root:Create record 55 :Index-Nifty200 Momentum 30, Date-2020-10-12
+INFO:root:Create record 56 :Index-NIFTY LargeMidcap 250, Date-2020-10-12
+INFO:root:Create record 57 :Index-NIFTY SME EMERGE, Date-2020-10-12
+INFO:root:Create record 58 :Index-Nifty Oil & Gas, Date-2020-10-12
+INFO:root:Create record 59 :Index-Nifty Financial Services 25/50, Date-2020-10-12
+INFO:root:Create record 60 :Index-Nifty100 ESG Sector Leaders, Date-2020-10-12
+INFO:root:Create record 61 :Index-NIFTY100 ESG, Date-2020-10-12
+INFO:root:Create record 62 :Index-NIFTY100 Enhanced ESG, Date-2020-10-12
+INFO:root:Create record 63 :Index-NIFTY500 Value 50, Date-2020-10-12
+INFO:root:Create record 64 :Index-NIFTY100 Alpha 30, Date-2020-10-12
+INFO:root:Create record 65 :Index-Nifty 50 Futures Index, Date-2020-10-12
+INFO:root:Create record 66 :Index-Nifty Aditya Birla Group, Date-2020-10-12
+INFO:root:Create record 67 :Index-Nifty Midcap 150, Date-2020-10-12
+INFO:root:Create record 68 :Index-Nifty MidSmallcap 400, Date-2020-10-12
+INFO:root:Create record 69 :Index-Nifty Smallcap 50, Date-2020-10-12
+INFO:root:Create record 70 :Index-Nifty Smallcap 250, Date-2020-10-12
+INFO:root:Create record 71 :Index-Nifty Private Bank, Date-2020-10-12
+INFO:root:Create record 72 :Index-Nifty Tata Group 25% Cap, Date-2020-10-12
+INFO:root:Create record 73 :Index-Nifty Tata Group, Date-2020-10-12
+INFO:root:Create record 74 :Index-Nifty Mahindra Group, Date-2020-10-12
+INFO:root:Create record 75 :Index-Nifty 50 Futures TR Index, Date-2020-10-12
+INFO:root:Create record 76 :Index-Nifty 8-13 yr G-Sec, Date-2020-10-12
+INFO:root:Create record 77 :Index-Nifty 4-8 yr G-Sec Index, Date-2020-10-12
+INFO:root:Create record 78 :Index-Nifty 11-15 yr G-Sec Index, Date-2020-10-12
+INFO:root:Create record 79 :Index-Nifty 15 yr and above G-Sec Index, Date-2020-10-12
+INFO:root:Create record 80 :Index-Nifty Composite G-sec Index, Date-2020-10-12
+INFO:root:Create record 81 :Index-Nifty 10 yr Benchmark G-Sec, Date-2020-10-12
+INFO:root:Create record 82 :Index-Nifty 10 yr Benchmark G-Sec (Clean Price), Date-2020-10-12
+INFO:root:Create record 83 :Index-Nifty 1D Rate Index, Date-2020-10-12
+INFO:root:Create record 84 :Index-Nifty50 USD, Date-2020-10-12
+INFO:root:Data Extraction completed for 12102020

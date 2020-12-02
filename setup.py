@@ -20,6 +20,9 @@ root = "C:\\"+os.path.join("Users", "Arijit Ganguly", "Documents", "PythonProjec
 #Data path
 data_dict["Project Structure"]["Data"] = os.path.join(root, "data")
 
+#Historic Stocks Data path
+data_dict["Project Structure"]["Historic stocks"] = os.path.join(root, "data", "historic_data", "stocks")
+
 #Logs path
 data_dict["Project Structure"]["Logs"] = os.path.join(root, "data", "logs")
 
@@ -47,6 +50,9 @@ data_dict["Project Structure"]["Chrome driver"] = "C:\\"+os.path.join("Work","ch
 #NSE archive web link
 data_dict["Links"]["Base nse url"] = "https://archives.nseindia.com/products/content/"
 
+#NSE index archive weblink
+data_dict["Links"]["Base index url"] = "https://archives.nseindia.com/content/indices/"
+
 #API stocks link
 data_dict["Links"]["stocks"]["base"] = "http://www.arijitganguly.com/api/stock/"
 
@@ -56,8 +62,9 @@ data_dict["Links"]["indices"]["base"] = "http://www.arijitganguly.com/api/indice
 #API function links
 data_dict["Links"]["stocks"]["Read"] = "http://www.arijitganguly.com/api/stock/read.php"
 data_dict["Links"]["stocks"]["Create"] = "http://www.arijitganguly.com/api/stock/create.php"
-data_dict["Links"]["stocks"]["Search"] = "http://www.arijitganguly.com/api/stock/search.php"
-
+data_dict["Links"]["stocks"]["Search by Symbol"] = "http://www.arijitganguly.com/api/stock/search_by_symbol.php?symbol="
+data_dict["Links"]["stocks"]["Unique Stocks"] = "http://www.arijitganguly.com/api/stock/get_unique_stocks.php"
+data_dict["Links"]["indices"]["Create"] = "http://www.arijitganguly.com/api/indices/create.php"
 
 #Check if the config file exists
 if not os.path.isfile(os.path.join(data_dict["Project Structure"]["Application"], config_filename)):
